@@ -2,26 +2,18 @@ import random
 import turtle as tur
 
 class Turtle:
-    def __init__(self,color,speed,leap):
+    def __init__(self,color):
         self.color = color
-        self.speed = speed
-        self.leap = leap
         self.turtle = tur.Turtle()
         self.turtle.ht()
         self.turtle.color(self.color)
-        self.turtle.speed(self.speed)
         self.turtle.shape("turtle")
         self.turtle.width(5)
+        self.turtle.pensize(2)
         self.turtle.shapesize(2)
     
     def getColor(self):
         return self.color
-    
-    def getSpeed(self):
-        return self.speed
-    
-    def getLeap(self):
-        return self.leap
     
     def getTurtle(self):
         return self.turtle
@@ -34,27 +26,79 @@ class Turtle:
     
     def move(self):
         choice = random.randint(1,4)
+        angle = random.randint(1,60)
+        speed = random.randint(1,3)
+        leap = random.randint(10,20)
+        
+        self.turtle.speed(speed)
+        
         if choice == 1:
-            self.turtle.fd(self.leap)
+            self.turtle.fd(leap)
         if choice == 2:
-            self.turtle.left(random.randint(1,60))
-            self.turtle.fd(self.leap)
+            if self.turtle.pos()[1] > 400:
+                self.turtle.goto(self.turtle.pos()[0],400)
+                self.turtle.right(90)
+            else:
+                self.turtle.left(angle)
+                self.turtle.fd(leap)
         if choice == 3:
-            self.turtle.right(random.randint(1,60))
-            self.turtle.fd(self.leap)
+            if self.turtle.pos()[1] < -400:
+                self.turtle.goto(self.turtle.pos()[0],-400)
+                self.turtle.left(90)
+            else:
+                self.turtle.right(angle)
+                self.turtle.fd(leap)
         if choice == 4:
-            self.turtle.back(self.leap)
+            if self.turtle.pos()[0] < -400:
+                self.turtle.goto(-400,self.turtle.pos()[1])
+            else:
+                self.turtle.back(leap - 8)
     
     
 class RobotTurtle(Turtle):
-    def __init__(self,color,speed,leap,energy):
-        super().__init__(color,speed,leap)
+    def __init__(self,color,energy):
+        super().__init__(color)
         self.energy = energy
     
     def getEnergy(self):
         return self.energy
+    
+    def move(self):
+        choice = random.randint(1,4)
+        angle = random.randint(1,60)
+        speed = random.randint(1,3)
+        leap = random.randint(10,20)
         
-def teleport(x,y,t,oldSpd):
+        self.turtle.speed(speed)
+        if self.energy > 0:
+            if choice == 1:
+                self.turtle.fd(leap)
+            if choice == 2:
+                if self.turtle.pos()[1] > 400:
+                    self.turtle.goto(self.turtle.pos()[0],400)
+                    self.turtle.right(90)
+                else:
+                    self.turtle.left(angle)
+                    self.turtle.fd(leap)
+            if choice == 3:
+                if self.turtle.pos()[1] < -400:
+                    self.turtle.goto(self.turtle.pos()[0],-400)
+                    self.turtle.left(90)
+                else:
+                    self.turtle.right(angle)
+                    self.turtle.fd(leap)
+            if choice == 4:
+                if self.turtle.pos()[0] < -400:
+                    self.turtle.goto(-400,self.turtle.pos()[1])
+                else:
+                    self.turtle.back(leap - 8)
+            self.energy -= leap
+            print(f"Energy is at {self.energy}")
+        else:
+            print("Dead")
+            
+        
+def teleport(x,y,t):
     t.ht()
     t.speed(0)
     t.penup()
@@ -62,44 +106,55 @@ def teleport(x,y,t,oldSpd):
     t.sety(y)
     t.pendown()
     t.st()
-    t.speed(oldSpd)
     
 def main():
     tur.bgcolor("light blue")
     colors = ["Red","light salmon","White smoke","Purple","White","Pink","Green","Grey"]
-    #count = int(input("How many turtles? >"))
-    #num = random.randint(1,count)
-    #print(f"There are {num} turtles and {count-num} robotTurtle")
-    
+    count = int(input("How many turtles? >"))
+    num = random.randint(1,count)
+    print(f"There are {num} turtles and {count-num} robotTurtle")
+
     tList = []
     rtList = []
     # #Creating normal turtles
     
-    for i in range(5):
+    for i in range(num):
         color = random.choice(colors)
-        speed = random.randint(1,3)
-        leap = random.randint(1,100)
-        t = Turtle(color,speed,leap)
+        colors.remove(color)
+        t = Turtle(color)
         tList.append(t)
-    #for i in range(count - num):
-    #    rtList.append(RobotTurtle(random.choice(colors),random.randint(1,3),random.randint(1,100),random.randint(1,100)))
+    for i in range(count - num):
+        color = random.choice(colors)
+        energy = random.randint(1000,1500)
+        colors.remove(color)
+        rt = RobotTurtle(color,energy)
+        rtList.append(rt)
     
-    for t in tList:
-        teleport(-450,0,t.getTurtle(),t.getSpeed())
+    turtles = tList + rtList
+    
+    point = 380
+    grid = (400 / len(turtles)*2)
+    for t in turtles:
+        teleport(-450,point,t.getTurtle())
+        point -= grid
         
     while True:
-        for turtle in tList:
-            #print(turtle.getColor())
+        win = False
+        for turtle in turtles:
             turtle.move()
-            # print(turtle.getColor())
-            # print((turtle.getPos()[0]))
-            if (turtle.getPos()[0]) > 400:
-                print(f"{turtle.getColor()} wins!")
-                exit()
-        
+            if (turtle.getPos()[0]) > 450:
+                win = turtle.getColor() + " wins!"
+                print(win)
+                break
+        if win != "" and win != False:
+            winT = tur.Turtle()
+            winT.up()
+            winT.setposition(-100,0)
+            winT.down()
+            winT.write(win, font=("Verdana",35, "normal"))
+            winT.ht()
+            break
     tur.exitonclick()
     
-    
-
 
 main()

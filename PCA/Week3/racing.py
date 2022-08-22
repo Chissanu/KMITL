@@ -7,6 +7,7 @@ class Turtle:
         self.speed = speed
         self.leap = leap
         self.turtle = tur.Turtle()
+        self.turtle.ht()
         self.turtle.color(self.color)
         self.turtle.speed(self.speed)
         self.turtle.shape("turtle")
@@ -34,15 +35,15 @@ class Turtle:
     def move(self):
         choice = random.randint(1,4)
         if choice == 1:
-            self.turtle.fd(50)
+            self.turtle.fd(self.leap)
         if choice == 2:
             self.turtle.left(random.randint(1,60))
-            self.turtle.fd(50)
+            self.turtle.fd(self.leap)
         if choice == 3:
             self.turtle.right(random.randint(1,60))
-            self.turtle.fd(50)
+            self.turtle.fd(self.leap)
         if choice == 4:
-            self.turtle.back(50)
+            self.turtle.back(self.leap)
     
     
 class RobotTurtle(Turtle):
@@ -53,15 +54,18 @@ class RobotTurtle(Turtle):
     def getEnergy(self):
         return self.energy
         
-def teleport(x,y,t):
+def teleport(x,y,t,oldSpd):
+    t.ht()
+    t.speed(0)
     t.penup()
     t.setx(x)
     t.sety(y)
     t.pendown()
+    t.st()
+    t.speed(oldSpd)
     
 def main():
     tur.bgcolor("light blue")
-    tur.setworldcoordinates(-20, -20, 20, 20)
     colors = ["Red","light salmon","White smoke","Purple","White","Pink","Green","Grey"]
     #count = int(input("How many turtles? >"))
     #num = random.randint(1,count)
@@ -71,35 +75,31 @@ def main():
     rtList = []
     # #Creating normal turtles
     
-    
-    for i in range(20):
-        tList.append(Turtle(random.choice(colors),random.randint(1,3),random.randint(1,100)))
+    for i in range(5):
+        color = random.choice(colors)
+        speed = random.randint(1,3)
+        leap = random.randint(1,100)
+        t = Turtle(color,speed,leap)
+        tList.append(t)
     #for i in range(count - num):
     #    rtList.append(RobotTurtle(random.choice(colors),random.randint(1,3),random.randint(1,100),random.randint(1,100)))
     
     for t in tList:
-        ogSpeed = t.getSpeed()
-        t.setSpeed(0)
-        print(t.getSpeed())
+        teleport(-450,0,t.getTurtle(),t.getSpeed())
         
     while True:
         for turtle in tList:
             #print(turtle.getColor())
             turtle.move()
-            print(turtle.getColor())
-            print((turtle.getPos()[0]))
+            # print(turtle.getColor())
+            # print((turtle.getPos()[0]))
             if (turtle.getPos()[0]) > 400:
-                print("Win")
+                print(f"{turtle.getColor()} wins!")
                 exit()
         
     tur.exitonclick()
     
     
-    #print(tList)
-    
-    # t1 = Turtle("Blue",2,2)
-    # t2 = Turtle("Red",2,5)
-    # t3 = RobotTurtle("Cyan",2,2,6)
 
 
 main()

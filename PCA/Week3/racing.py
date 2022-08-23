@@ -26,10 +26,8 @@ class Turtle:
     
     def move(self):
         choice = random.randint(1,2)
-        angle = random.randint(1,60)
         speed = random.randint(1,3)
-        leap = random.randint(10,20)
-        
+        leap = random.randint(10,20)  
         self.turtle.speed(speed)
         
         if choice == 1:
@@ -94,7 +92,12 @@ def main():
     tur.bgcolor("black")
     
     colors = ['red', 'green', 'blue', 'orange', 'yellow', 'grey', 'purple', 'pink', 'brown', 'cyan']
-    count = int(input("How many turtles? >"))
+    
+    count = input("How many turtles? (2-10)>")
+    
+    if count < 2 or count > 10:
+        print("Invalid counts!")
+        
     num = random.randint(1,count)
     print(f"There are {num} turtles and {count-num} robotTurtle")
 
@@ -151,6 +154,5 @@ def main():
             break
     tur.exitonclick()
     
-
 main()
 

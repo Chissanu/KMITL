@@ -1,29 +1,26 @@
 import turtle
 
-def teleport(x, y, t):
-    t.ht()
-    t.speed(0)
-    t.penup()
-    t.setx(x)
-    t.sety(y)
-    t.pendown()
-    t.st()
-
-def draw(length,t):
-    if length < 100:
+def drawtree(length, n,t):
+    if n >= length:
         return 1
     else:
-        t.right(60)
-        t.fd(length)
-        t.left(120)
-        return length * draw(length-1,t)
-    
+        t.forward(length)
+        t.lt(30)
+        drawtree(length * 0.6, n,t)
+        t.rt(60)
+        drawtree(length * 0.6, n,t)
+        t.lt(30)
+        t.backward(length)
+
 def main():
     t = turtle.Turtle()
     turtle.bgcolor("light blue")
-    teleport(-450,0,t)
-    t.fd(100)
-    draw(500,t)
+    t.speed(0)
+    t.pensize(5)
+    t.up()
+    t.backward(150)
+    t.down()
+    drawtree(126, 6,t)
 
 main()
 turtle.exitonclick()

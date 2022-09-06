@@ -18,12 +18,53 @@ def stars2(n,i):
 # stars2(5,1)
 
 def draw1(n,t):
-    t.dot(20) 
-    t.fd(100)
-    print("*" * n)
+    t.ht()
+    y = (n * 50) + 100
+    t.up()
+    t.goto(-400,y)
+    t.down()
+    for i in range(n):
+        t.dot(20)
+        t.up()
+        t.fd(50)
+        t.down()
     if n > 1:
-        stars1(n - 1)
-    print("*" * n)
+        draw1(n-1,t)
+    y = (n * -50) + 150
+    t.up()
+    t.goto(-400,y)
+    t.down()
+    for i in range(n):
+        t.dot(20)
+        t.up()
+        t.fd(50)
+        t.down()
+
+def draw2(n,t,num):
+    t.ht()
+    y = (n * 50) + 100
+    t.up()
+    t.goto(-400,y)
+    t.down()
+    if n <= 0:
+        return
+    else:
+        for i in range(num):
+            t.dot(20)
+            t.up()
+            t.fd(50)
+            t.down()
+        draw2(n-1,t,num+1)
+        y = (n * -50) + 150
+        t.up()
+        t.goto(-400,y)
+        t.down()
+        for i in range(num):
+            t.dot(20)
+            t.up()
+            t.fd(50)
+            t.down()
+            
 
 def main():
     t = turtle.Turtle()
@@ -33,7 +74,11 @@ def main():
     t.up()
     t.setpos(-400,350)
     t.down()
-    draw(5,t)
+    #draw1(5,t)
+    draw2(5,t,1)
+    
 
+#stars1(5)
 main()
+stars2(5,1)
 turtle.exitonclick()

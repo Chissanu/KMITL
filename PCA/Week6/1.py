@@ -1,4 +1,5 @@
 import random
+import turtle
 class Line:
     def __init__(self, line):
         self.line = line
@@ -116,4 +117,52 @@ def console():
         print(f"Line1 has: {line1}")
         print(f"Line2 has: {line2}")
 
-console()
+def teleport(x, y, t):
+    t.ht()
+    t.speed(0)
+    t.penup()
+    t.setx(x)
+    t.sety(y)
+    t.pendown()
+    t.st()
+    
+def drawGraph(points,tur):
+    teleport(-350,300,tur)
+    tur.fd(20)
+    tur.back(20)
+    tur.right(90)
+    for i in range(points):
+        tur.fd(600/points)
+        tur.left(90)
+        tur.fd(20)
+        tur.back(20)
+        tur.right(90)
+    tur.left(90)
+    for i in range(points):
+        tur.fd(600/points)
+        tur.left(90)
+        tur.fd(20)
+        tur.back(20)
+        tur.right(90)
+        
+    # tur.right(90)
+    # tur.fd(600)
+    # tur.left(90)
+    # tur.fd(750)
+    
+def plot(tur):
+    #Point(3,2)
+    teleport(300,200,tur)
+    tur.stamp()
+    
+def draw(tur):
+    points = 5
+    drawGraph(points,tur)
+    teleport(-300,0,tur)
+    tur.stamp()
+    turtle.exitonclick()
+    
+#console()
+tur = turtle.Turtle()
+turtle.bgcolor("light blue")
+draw(tur)

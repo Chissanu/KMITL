@@ -78,7 +78,7 @@ def console():
 
     points = []
     line2 = int(input("How many points for line2? >"))
-    #Gen points Line1
+    #Gen points Line2
     for i in range(line2):
         randx = random.randint(-line2,line2)
         randy = random.randint(-line2,line2)
@@ -124,7 +124,6 @@ def teleport(x, y, t):
     t.setx(x)
     t.sety(y)
     t.pendown()
-    t.st()
     
 def drawGraph(points,tur):
     teleport(-350,300,tur)
@@ -145,24 +144,94 @@ def drawGraph(points,tur):
         tur.back(20)
         tur.right(90)
         
-    # tur.right(90)
-    # tur.fd(600)
-    # tur.left(90)
-    # tur.fd(750)
     
-def plot(tur):
-    #Point(3,2)
-    teleport(300,200,tur)
-    tur.stamp()
+def plot(tur,points,maxPoint,color):
+    line = 600 / maxPoint
+    teleport(-350 + points[0][0],-300 + points[0][1],tur)
+    for i in range(len(points)):
+        pointX = points[i][0] * line
+        pointY = points[i][1] * line
+        # if points[i][0] < 0:
+        #     pointX = pointX * -1
+        # if points[i][1] < 0:
+        #     pointY = pointY * -1
+        tur.goto(-350 + pointX,-300 + pointY)
+        tur.dot(10,color)
     
 def draw(tur):
-    points = 5
-    drawGraph(points,tur)
-    teleport(-300,0,tur)
-    tur.stamp()
+    points = []
+    line1 = int(input("How many points for line1? >"))
+    #Gen points Line1
+    for i in range(line1):
+        randx = random.randint(0,line1)
+        randy = random.randint(0,line1)
+        point = (randx,randy)
+        points.append(point)
+    line1 = Line(points)
+
+    points = []
+    line2 = int(input("How many points for line2? >"))
+    #Gen points Line2
+    for i in range(line2):
+        randx = random.randint(0,line2)
+        randy = random.randint(0,line2)
+        point = (randx,randy)
+        points.append(point)
+    line2 = Line(points)
+    
+    
+    #Test
+    print(f"Line1 has: {line1.getLine()}")
+    print(f"Line2 has: {line2.getLine()}")
+    
+    #Draw graph
+    if len(line1.getLine()) > len(line2.getLine()):
+        maxPoint = len(line1.getLine())
+    else:
+        maxPoint = len(line2.getLine())
+    drawGraph(maxPoint,tur)
+    tur.speed(2)
+    plot(tur,line1.getLine(),maxPoint,"red")
+    plot(tur,line2.getLine(),maxPoint,"blue")
+    
+    #Ask for choice
+    print("What do you want to do")
+    print("\t1.Join")
+    print("\t2.Join Zigzag1")
+    print("\t3.Join Zigzag2")
+    option = int(input("What do you want to do >"))
+    if option == 1:
+        err = line1.joinExtend(line2.getLine())
+        tur.clear()
+        drawGraph(maxPoint,tur)
+        plot(tur,line1.getLine(),maxPoint,"red")
+        if err == True:
+            line2 = []
+        print(line1.getLine())
+        print(line2)
+    elif option == 2:
+        tur.clear()
+        line3 = line1.zigzag1(line2.getLine())
+        drawGraph(maxPoint,tur)
+        print(line3)
+        plot(tur,line3,maxPoint,"green")
+    elif option == 3:
+        tur.clear()
+        drawGraph(maxPoint,tur)
+        line1.zigzag2(line2.getLine())
+        plot(tur,line1.getLine(),maxPoint,"red")
+        
+        
+        
+    # drawGraph(maxPoint,tur)
+    # tur.speed(2)
+    # plot(tur,line1,maxPoint,"red")
+    # plot(tur,line2,maxPoint,"blue")
     turtle.exitonclick()
     
 #console()
 tur = turtle.Turtle()
+tur.width(2)
+tur.ht()
 turtle.bgcolor("light blue")
 draw(tur)

@@ -1,10 +1,10 @@
 #include <EEPROM.h>
 
 struct MyObject{
-  char serialNum[10];
-  int size;
-  char date[10];
-  char name[10];
+  char serialNum[20];
+  int ssize;
+  char date[20];
+  char uname[20];
 };
 
 void setup() {

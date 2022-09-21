@@ -7,6 +7,17 @@ def fib(n):
     else:
        return(fib(n-1) + fib(n-2)) 
 
+#1 1 2 3 5
+def fib2(n):
+    sequence = []
+    if n == 1:
+        sequence = [1]
+    else:
+        sequence = [1,1]
+        for i in range(1, n-1):
+            sequence.append(sequence[i-1] + sequence[i])
+    return sequence[n - 1]
+
 def plotFunc(func, n):
     result = []
     for i in range(n):
@@ -16,8 +27,5 @@ def plotFunc(func, n):
         result.append(end - start)
     return result
 
-plt.plot(plotFunc(fib, 10), color='red')
-plt.xlabel('n')
-plt.ylabel('time')
-plt.show()
-print(fib(6))
+print(fib(10))
+print(fib2(10))

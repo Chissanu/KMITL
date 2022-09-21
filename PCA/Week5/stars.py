@@ -18,27 +18,28 @@ def stars2(n,i):
 # stars2(5,1)
 
 def draw1(n,t):
-    t.ht()
-    y = (n * 50) + 100
-    t.up()
-    t.goto(-400,y)
-    t.down()
-    for i in range(n):
-        t.dot(20)
-        t.up()
-        t.fd(50)
-        t.down()
     if n > 1:
-        draw1(n-1,t)
-    y = (n * -50) + 150
-    t.up()
-    t.goto(-400,y)
-    t.down()
-    for i in range(n):
-        t.dot(20)
+        t.ht()
+        y = (n * 50) + 100
         t.up()
-        t.fd(50)
+        t.goto(-400,y)
         t.down()
+        for i in range(n):
+            t.dot(20)
+            t.up()
+            t.fd(50)
+            t.down()
+        draw1(n-1,t)
+    else:
+        y = (n * -50) + 150
+        t.up()
+        t.goto(-400,y)
+        t.down()
+        for i in range(n):
+            t.dot(20)
+            t.up()
+            t.fd(50)
+            t.down()
 
 def draw2(n,t,num):
     t.ht()

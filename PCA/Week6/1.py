@@ -229,9 +229,9 @@ def draw(tur):
     # plot(tur,line2,maxPoint,"blue")
     turtle.exitonclick()
     
-#console()
+console()
 tur = turtle.Turtle()
 tur.width(2)
 tur.ht()
 turtle.bgcolor("light blue")
-draw(tur)
+# draw(tur)

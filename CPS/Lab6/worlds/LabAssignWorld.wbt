@@ -1,0 +1,101 @@
+#VRML_SIM R2022b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.04018644010196696 0.9942689053312521 0.09906762298210482 0.7748119144368305
+  position -1.7908348303354675 -1.0156753590221075 1.642667875034824
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 0 0 1 1.5708
+  floorSize 2 2
+  floorTileSize 0.2 0.2
+}
+WoodenBox {
+  translation 0.370841 -0.05754599999999999 0.049606596225301204
+  rotation -0.7067087840316815 -0.7067087840316834 -0.033546820190918834 4.826040384260402e-17
+  size 0.1 0.1 0.1
+  mass 1
+}
+WoodenBox {
+  translation 0.47040901887117936 0.20726222868568225 0.049607422453142945
+  rotation -5.442814967398569e-07 4.13165340147093e-06 0.9999999999913165 0.2617996142454109
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+  mass 1
+}
+WoodenBox {
+  translation -0.40898 -0.315527 0.04960798369040057
+  rotation 3.084640596065681e-17 5.2658532719806276e-18 1 1.5708000000000002
+  name "wooden box(2)"
+  size 0.1 0.4 0.1
+  mass 1
+}
+WoodenBox {
+  translation 0.5977639469480802 -0.2480299678646319 0.04960778579675494
+  rotation -2.665780660793158e-07 -1.6715262789102587e-06 -0.9999999999985675 0.7853950158567762
+  name "wooden box(3)"
+  size 0.1 0.4 0.1
+  mass 1
+}
+Solid {
+  translation -0.308569 0.516945 0.04
+  rotation 1 0 0 1.5708
+  scale 1.529 1.529 1.529
+  children [
+    DEF G0 Group {
+      children [
+        DEF WELLB Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.15 0.03 0.01
+          }
+        }
+        Transform {
+          translation 0.08 0 -0.07
+          rotation 0 1 0 1.5708
+          children [
+            USE WELLB
+          ]
+        }
+        Transform {
+          translation -0.07 0 -0.0699998
+          rotation 0 1 0 1.5708
+          children [
+            USE WELLB
+          ]
+        }
+      ]
+    }
+  ]
+  boundingObject USE G0
+}
+E-puck {
+  hidden position_0_0 19.040959999348193
+  hidden position_0_1 19.04095999926556
+  hidden linearVelocity_0 0.00015949239709969642 -6.260797382302957e-12 1.7294907005707027e-08
+  hidden angularVelocity_0 4.17215232166402e-10 0.010632781660205416 -3.444352057066373e-11
+  hidden rotation_1 0 -1 0 6.091781229370154
+  hidden linearVelocity_1 0.0002126557088136764 -8.347225322277837e-12 -2.0026424936056194e-11
+  hidden angularVelocity_1 4.177459296767127e-10 0.01063278166334931 1.567649760745812e-10
+  hidden rotation_2 0 -1 0 6.091781229452786
+  hidden linearVelocity_2 0.00021265570719993388 -8.346571488772848e-12 -1.9748958015358953e-11
+  hidden angularVelocity_2 4.175704180234511e-10 0.010632781663284817 -2.2565213119462757e-10
+  translation -0.06344981699143754 -0.7309429997132578 -6.396005874333838e-05
+  rotation 4.387288415202618e-06 0.999999997373241 -7.234825483295031e-05 0.0005495321664375365
+  controller "helloWorld"
+}

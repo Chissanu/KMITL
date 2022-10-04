@@ -9,10 +9,6 @@ class Node:
     def getNext(self):
         return self.next
 
-    def deleteNode(self,newNext):
-        self.data = self.next
-        self.next = newNext
-
     def setData(self,newdata):
         self.data = newdata
 
@@ -72,11 +68,6 @@ class UnorderedList:
             self.head = current.getNext()
         else:
             previous.setNext(current.getNext())
-    
-    def deleteNode(self):
-        current = self.head
-        next = current.getNext()
-        current.deleteNode(next)
 
     def printNode(self):
         current = self.head
@@ -88,46 +79,42 @@ class UnorderedList:
         current = self.head
         while current != None:
             next = current.getNext()
-            print(f"Comparing {current.getData()} and {next.getData()}")
             if next is not None:
                 if current.getData() == next.getData():
-                    current = current.getNext()
-                    current.setNext(current.getNext())
+                    current.setData(next.getData())
+                    current.setNext(next.getNext())
                 else:
                     current = current.getNext()
             else:
                 break
-
-        # while current != None:
-        #     next = current.getNext()
-        #     if next != None:
-        #         if current.getData() == current.getNext().getData():
-        #             self.remove(current.getData())
-        #             current = current.getNext()
-        #         else:
-        #             current = current.getNext()
-        #     else:
-        #         current = current.getNext()
-            # if current.getData() == current.getNext():
-            #     self.remove(current.getData())
-            #     current = current.getNext()
-            # else:
-            #     current = current.getNext()
+    
+    def dble(self):
+        current = self.head
+        while current is not None:
+            next = current.getNext()
+            if next is not None:
+                dupe = current
+                dupe.setNext(next)
+                current.setNext(dupe)
+                current = current.getNext()
 
 def main():
     myList = UnorderedList()
-    ex = [8, 0, 0, 0, 1, 1, 0, 0, 0, 3, 3, 3, 1, 1, 0]
+    #ex = [0, 0, 0, 0, 1, 1, 0, 0, 0, 3, 3, 3, 1, 1, 0]
+    ex = [3,7,4,2]
     for i in ex:
         myList.add(i)
 
-    print(myList.getList())
-    print("Deleting")
-    myList.deleteNode()
-    print(myList.printNode())
     # print("Before Squish:")
     # print(myList.getList())
     # myList.squish()
     # print("After Squish")
     # print(myList.getList())
+    print("Before Double")
+    print(myList.getList())
+    myList.dble()
+    print("After Double")
+    print(myList.getList())
+    
 
 main()

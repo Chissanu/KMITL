@@ -90,9 +90,9 @@ class UnorderedList:
     
     def dble(self):
         current = self.head
-        while current is not None:
+        while current != None:
             next = current.getNext()
-            if next is not None:
+            if next != None:
                 dupe = current
                 dupe.setNext(next)
                 current.setNext(dupe)

@@ -91,30 +91,28 @@ class UnorderedList:
     def dble(self):
         current = self.head
         while current != None:
-            next = current.getNext()
-            if next != None:
-                dupe = current
-                dupe.setNext(next)
-                current.setNext(dupe)
-                current = current.getNext()
+            val = Node(current.getData())
+            val.setNext(current.getNext())
+            current.setNext(val)
+            current = current.getNext().getNext()
 
 def main():
     myList = UnorderedList()
-    #ex = [0, 0, 0, 0, 1, 1, 0, 0, 0, 3, 3, 3, 1, 1, 0]
-    ex = [3,7,4,2]
+    ex = [0, 0, 0, 0, 1, 1, 0, 0, 0, 3, 3, 3, 1, 1, 0]
+    #ex = [3,7,4,2]
     for i in ex:
         myList.add(i)
 
-    # print("Before Squish:")
-    # print(myList.getList())
-    # myList.squish()
-    # print("After Squish")
-    # print(myList.getList())
-    print("Before Double")
+    print("Before Squish:")
     print(myList.getList())
-    myList.dble()
-    print("After Double")
+    myList.squish()
+    print("After Squish")
     print(myList.getList())
+    # print("Before Double")
+    # print(myList.getList())
+    # myList.dble()
+    # print("After Double")
+    # print(myList.getList())
     
 
 main()

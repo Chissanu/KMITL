@@ -28,7 +28,8 @@ void loop() {
       text = in_str;
       text.replace("\n","");
       while (text == "read") {
-        Serial.println(analogRead(A3));
+        Serial.println(analogRead(A0));
+        BLESerial.print(analogRead(A0));
         in_str = BLESerial.readString();
         if (in_str == "stop") {
           break;

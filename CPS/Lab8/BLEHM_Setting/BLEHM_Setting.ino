@@ -14,7 +14,7 @@ void setup()
 {
   BLESerial.begin(9600);
   Serial.begin(9600);
-   ble_cmd("AT+NAME=ChissanuK" , "Device Name: ");// printout/change device name EBLE_C
+   ble_cmd("AT+NAME=Oak" , "Device Name: ");// printout/change device name EBLE_C
    ble_cmd("AT+LADDR" , "Local MAC Address: ");// printout/change local MAC address   
    ble_cmd("AT+RESET",""); // reset BLE module
     
@@ -33,7 +33,7 @@ String ble_cmd(String cmd_str, String desc_str){
         return "Err";
       }
       continue;
-  }
+  } 
 
   if(in_char == '\n'){
     Serial.print("Bluetooth " + desc_str);

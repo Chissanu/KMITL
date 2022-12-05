@@ -1,5 +1,5 @@
-const int trigPin = 9;
-const int echoPin = 10;
+const int trigPin = 2;
+const int echoPin = 3;
 long duration;
 int SampleTime = 1000;
 

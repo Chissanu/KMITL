@@ -2,7 +2,10 @@
     msg: .asciiz "Enter a number: "
     chosen: .asciiz "You chose: "
     complete: .asciiz "The answer is: "
+    error: .asciiz "The number you choose is less than 0!"
     space: .asciiz "\n"
+    empty: .asciiz ""
+    de: .asciiz "HERE"
 
 .text
 
@@ -17,14 +20,26 @@ main:
     # Store n times to t0
     move $t0, $v0
 
+    # Display chosen text
     li $v0, 4
     la $a0, chosen
     syscall
 
+    # Display chose number
     li $v0, 1
     move $a0, $t0
     syscall
 
+    # Empty the $a0
+    li $v0,4
+    la $a0, empty
+    syscall
+
+    # Check if less than 0
+    bltz $t0, less
+    syscall
+
+    # Check if 0
     beq $t0, $zero, zero
     syscall
 
@@ -48,10 +63,6 @@ loop:
 
 end:
     li $v0, 4
-    la $a0, space
-    syscall
-
-    li $v0, 4
     la $a0, complete
     syscall
 
@@ -62,7 +73,7 @@ end:
     li $v0, 10  
     syscall
 
-# Case
+# Case zero
 zero:
     li $v0, 4
     la $a0, space
@@ -80,3 +91,16 @@ zero:
 
     li $v0, 10  
     syscall
+
+less:
+    li $v0, 4
+    la $a0, space
+    syscall
+
+    li $v0, 4
+    la $a0, error
+    syscall
+
+    li $v0, 10  
+    syscall
+

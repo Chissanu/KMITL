@@ -1,0 +1,68 @@
+query suspect
+select * from security where sign_out_date='2003-07-04' and sign_out_time between '16:00:00' and '19:00:00';
+
+query suspect employee badge number
+select badge_number from security where sign_out_date='2003-07-04' and sign_out_time between '16:00:00' and '19:00:00' and badge_number not like 'V%';
+
+query male employee with brown hair
+select * from employee where gender='M' and hair_colour='brown';
+
+query male's badge number with brown hair
+select badge_number from employee where gender='M' and hair_colour='brown';
+
+Person with same type number as missing laptop
++-------------+------------+-----------+----------+------------+-----------+--------+-------------+--------------+-------------------+
+| employee_id | first_name | last_name | location | manager_id | extension | gender | hair_colour | badge_number | restricted_access |
++-------------+------------+-----------+----------+------------+-----------+--------+-------------+--------------+-------------------+
+| 924580      | Marc       | Ost       | D1-294   | 924576     | 3423      | M      | brown       | 83462        | Y                 |
++-------------+------------+-----------+----------+------------+-----------+--------+-------------+--------------+-------------------+
+
+This is his laptop
++-------------+----------+-------------+-------------+
+| employee_id | location | hardware_tn | hardware_sn |
++-------------+----------+-------------+-------------+
+| 924580      | D1-294   | 6628-295    | 74-22665    |
++-------------+----------+-------------+-------------+
+
+This is all laptop with same hardware type numbers
++-------------+----------+-------------+-------------+
+| employee_id | location | hardware_tn | hardware_sn |
++-------------+----------+-------------+-------------+
+| 924580      | D1-294   | 6628-295    | 74-22665    |
+| 924581      | D1-283   | 6628-295    | 74-22385    |
+| 924582      | A3-273   | 6628-295    | 34-56385    |
++-------------+----------+-------------+-------------+
+
++-----------------+--------------------+--------+-------------+-----------+-------------------+--------------+
+| first_name      | last_name          | gender | hair_colour | extension | restricted_access | badge_number |
++-----------------+--------------------+--------+-------------+-----------+-------------------+--------------+
+| William         | Miller             | M      | brown       | 3453      | N                 | 24623        |
+| Juliana         | Santos             | M      | brown       | 6432      | N                 | 92033        |
+| Vlaunir         | Jimenez da Silva   | M      | brown       | 3432      | N                 | 87348        |
+| Frank           | Proesmans          | M      | brown       | 5555      | N                 | 83460        |
+| Marc            | Ost                | M      | brown       | 3423      | Y                 | 83462        |
+| Joao            | Vendruscolo        | M      | brown       | 3424      | N                 | 83463        |
+| Robert          | Gaisbauer          | M      | brown       | 3434      | N                 | 83475        |
+| Rajesh          | Gopalakrishnan     | M      | brown       | 3435      | N                 | 83477        |
+| Matthew         | Watson             | M      | brown       | 3436      | N                 | 83478        |
+| Kalyanasundaram | Sankarasubramaniam | M      | brown       | 3437      | N                 | 83479        |
+| Grant           | Allen              | M      | brown       | 3442      | N                 | 83484        |
++-----------------+--------------------+--------+-------------+-----------+-------------------+--------------+
+
+FINAL QUERY
+select first_name, last_name, badge_number from employee where (select badge_number from security where sign_out_date='2003-07-04' and sign_out_time between '16:00:00' and '19:00:00' and badge_number not like 'V%');
+
+select first_name,last_name, badge_number from employee where gender='M' and hair_colour='brown' and badge_number in (select badge_number from security where sign_out_date='2003-07-04' and sign_out_time between '16:00:00' and '19:00:00' and badge_number not like 'V%');
+
+select first_name,last_name, extension, restricted_access, badge_number from employee where gender='M' and hair_colour='brown' and badge_number in (select badge_number from security where sign_out_date='2003-07-04' and sign_out_time between '16:00:00' and '19:00:00' and badge_number not like 'V%') and restricted_access='Y';
+
+Final Query
+select * from employee where where gender='M' and hair_colour='brown' and badge_number in (select badge_number from security where sign_out_date='2003-07-04' and sign_out_time between '16:00:00' and '19:00:00' and badge_number not like 'V%') and
+The culprit
++-------------+------------+-------------+----------+------------+-----------+--------+-------------+--------------+-------------------+
+| employee_id | first_name | last_name   | location | manager_id | extension | gender | hair_colour | badge_number | restricted_access |
++-------------+------------+-------------+----------+------------+-----------+--------+-------------+--------------+-------------------+
+| 924581      | Joao       | Vendruscolo | D1-283   | 924576     | 3424      | M      | brown       | 83463        | N                 |
++-------------+------------+-------------+----------+------------+-----------+--------+-------------+--------------+-------------------+
+
+select * from employee where employee_id in (select employee_id from hardware where hardware_tn='6628-295');

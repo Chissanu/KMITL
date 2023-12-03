@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "helmet",
+  "identifier": "texture:1402-6e424e2b-09a0-4a9f-ad9e-5b91a2347b95",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "3fa4f141c143a597f37ce7a43aac2ad5",
+  "assetLocator": "textures/helmet.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 576,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "3fa4f141c143a597f37ce7a43aac2ad5",
+      "colorCount": 28182,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 1.0382685383940904,
+      "pixelsHigh": 1024,
+      "pixelsWide": 576
+    }
+  ]
+}

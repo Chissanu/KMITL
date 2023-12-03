@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:524299-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
   "id": "524297282ee4df82ec41bba6059d9e9ef6e1fb",
-  "revision": "544502282ee4df82ec41bba6059d9e9ef6e1fb",
+  "revision": "22716e424e2b09a04a9fad9e5b91a2347b95",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -54,6 +54,12 @@
         },
         {
           "sectionFileLocation": "textures/angel.texture"
+        },
+        {
+          "sectionFileLocation": "textures/helmet.texture"
+        },
+        {
+          "sectionFileLocation": "textures/helmet(1).texture"
         }
       ]
     },
@@ -66,6 +72,9 @@
         },
         {
           "sectionFileLocation": "materials/fire.material"
+        },
+        {
+          "sectionFileLocation": "materials/material0.material"
         }
       ]
     },
@@ -174,7 +183,7 @@
       "effectUsesBodyTracking": false,
       "effectUsesBodyTracking2DKeyPoints": false,
       "effectUsesBoundingBoxScripting": false,
-      "effectUsesBoundingBoxUtilities": false,
+      "effectUsesBoundingBoxUtilities": true,
       "effectUsesCameraControl": false,
       "effectUsesCameraInfoScriptingModule": false,
       "effectUsesCameraShare": false,
@@ -235,7 +244,7 @@
       "effectUsesFaceTrueScale": false,
       "effectUsesFaceWave": false,
       "effectUsesFacialExpressionRecognition": false,
-      "effectUsesFacialGestureRecognition": true,
+      "effectUsesFacialGestureRecognition": false,
       "effectUsesFieldOfView": false,
       "effectUsesFingerTracking": false,
       "effectUsesFonts": false,
@@ -250,7 +259,7 @@
       "effectUsesHairSegmentation": false,
       "effectUsesHalfFloatRenderPass": false,
       "effectUsesHandGestureKeypoints": false,
-      "effectUsesHandTracker": false,
+      "effectUsesHandTracker": true,
       "effectUsesHapticFeedback": false,
       "effectUsesHeadsetInfo": false,
       "effectUsesHmdNetworkingAPI": false,
@@ -383,7 +392,7 @@
       "effectUsesWeather": false,
       "effectUsesWebPTexture": false,
       "effectUsesWebsockets": false,
-      "effectUsesWorldTracker": true,
+      "effectUsesWorldTracker": false,
       "effectUsesWorldTrackerEnvironmentLight": false,
       "effectUsesWorldTrackerJSAPI": false,
       "effectUsesWorldTrackingWorldMap": false,
@@ -396,7 +405,7 @@
       "faceExpressionFittingRTRRetargetingMinVersion": 1,
       "faceTrackerIsEnabled": false,
       "faceTrackerMaxFaces": 1,
-      "faceTrackerMinVersion": 13,
+      "faceTrackerMinVersion": 10,
       "facewaveMinVersion": 1,
       "hairSegmentationMinVersion": 1,
       "handTrackerMaxHands": 2,

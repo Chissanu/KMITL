@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "kawai",
+  "identifier": "texture:526488-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "0746d43d00aaf7631f22c48f047b3ac4",
+  "assetLocator": "textures/kawai.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "0746d43d00aaf7631f22c48f047b3ac4",
+      "colorCount": 555,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 0.6097541216965715,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "524297282ee4df82ec41bba6059d9e9ef6e1fb",
+  "revision": "544502282ee4df82ec41bba6059d9e9ef6e1fb",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 173
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 173
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:536641-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "fromPatch": "template_patch_model:536637-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "fromPort": "101",
+        "toPatch": "template_patch_model:536639-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:539299-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "fromPatch": "template_patch_model:539103-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:539297-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:539303-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "fromPatch": "template_patch_model:539297-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:539295-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:539317-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "fromPatch": "template_patch_model:539297-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "fromPort": "101",
+        "toPatch": "template_patch_model:539295-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "toPort": "3"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:541544-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "fromPatch": "template_patch_model:541540-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:541542-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:541558-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "fromPatch": "template_patch_model:541552-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:541556-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:541562-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "fromPatch": "template_patch_model:541542-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "fromPort": "101",
+        "toPatch": "template_patch_model:541552-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "toPort": "1"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:524389-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "subpatches": [
+          "template_patch_model:536637-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+          "template_patch_model:536639-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+          "template_patch_model:539103-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+          "template_patch_model:539295-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+          "template_patch_model:539297-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+          "template_patch_model:541540-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+          "template_patch_model:541542-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+          "template_patch_model:541552-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+          "template_patch_model:541556-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "template_patch_model",
+        "name": "Face Finder",
+        "identifier": "template_patch_model:536637-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "position": [
+          1330.0947368421043,
+          163.76842105263142
+        ],
+        "templateId": "builtin.faceTracker"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Face Select",
+        "identifier": "template_patch_model:536639-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "position": [
+          1523.0947368421043,
+          163.76842105263142
+        ],
+        "templateId": "builtin.facePicker",
+        "values": [
+          {
+            "port": "1",
+            "value": {
+              "t": "int",
+              "v": 0
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Smile",
+        "identifier": "template_patch_model:539103-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "position": [
+          1988,
+          188
+        ],
+        "templateId": "builtin.smile"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "identifier": "template_patch_model:539295-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "position": [
+          2348,
+          164
+        ],
+        "templateId": "builtin.toggle"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "identifier": "template_patch_model:539297-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "position": [
+          2156,
+          188
+        ],
+        "templateId": "builtin.pulse"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Plane Finder",
+        "identifier": "template_patch_model:541540-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "position": [
+          2130.7714285714274,
+          193.0666666666666
+        ],
+        "templateId": "builtin.planeFinder"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Plane Select",
+        "identifier": "template_patch_model:541542-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "position": [
+          2252,
+          308
+        ],
+        "templateId": "builtin.planePicker"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "identifier": "template_patch_model:541552-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "position": [
+          2924,
+          284
+        ],
+        "templateId": "builtin.pulse"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "identifier": "template_patch_model:541556-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+        "position": [
+          3120,
+          284
+        ],
+        "templateId": "builtin.toggle"
+      }
+    ]
+  }
+}

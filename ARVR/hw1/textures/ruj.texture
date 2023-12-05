@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "ruj",
+  "identifier": "texture:6680-e570f0b8-587d-47c0-a952-f218890573bf",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "33b0efeaf69afa0c76180937bf19bb07",
+  "assetLocator": "textures/ruj.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 784,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 468,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "33b0efeaf69afa0c76180937bf19bb07",
+      "colorCount": 31832,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.548332426664552,
+      "pixelsHigh": 784,
+      "pixelsWide": 468
+    }
+  ]
+}

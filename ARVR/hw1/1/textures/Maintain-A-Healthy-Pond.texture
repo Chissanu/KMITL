@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Maintain-A-Healthy-Pond",
+  "identifier": "texture:10891-e570f0b8-587d-47c0-a952-f218890573bf",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "a753cf72e6604cfaf54fdc4541a5a6f0",
+  "assetLocator": "textures/Maintain-A-Healthy-Pond.jpg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 615,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "a753cf72e6604cfaf54fdc4541a5a6f0",
+      "colorCount": 123853,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 15.29938776265674,
+      "pixelsHigh": 615,
+      "pixelsWide": 1024
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "handsome_ruj",
+  "identifier": "texture:6248-e570f0b8-587d-47c0-a952-f218890573bf",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "b0495c220ddc206fc221c57a6ecadff5",
+  "assetLocator": "textures/handsome_ruj.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 816,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 404,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "b0495c220ddc206fc221c57a6ecadff5",
+      "colorCount": 39433,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 8.583345542800332,
+      "pixelsHigh": 816,
+      "pixelsWide": 404
+    }
+  ]
+}

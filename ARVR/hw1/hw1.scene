@@ -219,7 +219,7 @@
                       "hidden": false,
                       "isMaterialIdentifierEnabled": true,
                       "layerIdentifier": "person",
-                      "materialIdentifier": "defaultMaterial:551590-282ee4df-82ec-41bb-a605-9d9e9ef6e1fb",
+                      "materialIdentifier": "colorPaintMaterial:17184-e570f0b8-587d-47c0-a952-f218890573bf",
                       "mouthMode": "empty",
                       "outputVisibility": "preview|capture",
                       "physicsEnabled": false,
@@ -287,14 +287,14 @@
                 {
                   "modelName": "handtracker",
                   "name": "handTracker0",
-                  "identifier": "handtracker:1582-6e424e2b-09a0-4a9f-ad9e-5b91a2347b95",
+                  "identifier": "handtracker:853-e570f0b8-587d-47c0-a952-f218890573bf",
                   "animationMask": {
                     "position": false,
                     "rotation": false,
                     "scale": false
                   },
                   "cameraVisibility": "back|front",
-                  "hidden": false,
+                  "hidden": true,
                   "layerIdentifier": "person",
                   "outputVisibility": "preview|capture",
                   "physicsEnabled": false,
@@ -313,15 +313,15 @@
                   "children": [
                     {
                       "modelName": "composition_model",
-                      "name": "1st hand",
-                      "identifier": "composition_model:4910-6e424e2b-09a0-4a9f-ad9e-5b91a2347b95",
+                      "name": "canvas0",
+                      "identifier": "composition_model:3932-e570f0b8-587d-47c0-a952-f218890573bf",
                       "animationMask": {
                         "position": false,
                         "rotation": false,
                         "scale": false
                       },
                       "cameraVisibility": "back|front",
-                      "height": 844,
+                      "height": 390,
                       "hidden": false,
                       "layerIdentifier": "person",
                       "outputVisibility": "preview|capture",
@@ -333,19 +333,19 @@
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
-                        "sx": 0.0005924170836806297,
-                        "sy": 0.0005924170836806297,
-                        "sz": 0.0005924170836806297,
+                        "sx": 0.0010531859006732702,
+                        "sy": 0.0010531859006732702,
+                        "sz": 0.0010531859006732702,
                         "x": 0,
                         "y": 0,
                         "z": 0
                       },
-                      "width": 390,
+                      "width": 844,
                       "children": [
                         {
                           "modelName": "rectangle_model",
-                          "name": "rectangle0",
-                          "identifier": "rectangle_model:5094-6e424e2b-09a0-4a9f-ad9e-5b91a2347b95",
+                          "name": "HRuj",
+                          "identifier": "rectangle_model:5174-e570f0b8-587d-47c0-a952-f218890573bf",
                           "animationMask": {
                             "position": false,
                             "rotation": false,
@@ -357,15 +357,16 @@
                           "height": {
                             "unit": {
                               "multiplier": 1,
-                              "unitBase": 10
+                              "unitBase": 20
                             },
-                            "value": 0
+                            "value": 75
                           },
                           "hidden": false,
                           "horizontalAlignment": "center",
                           "isMaterialIdentifierEnabled": true,
                           "layerIdentifier": "person",
                           "locksAspectRatio": false,
+                          "materialIdentifier": "defaultMaterial:645-e570f0b8-587d-47c0-a952-f218890573bf",
                           "outputVisibility": "preview|capture",
                           "physicsEnabled": false,
                           "pinnedBottom": false,
@@ -443,30 +444,30 @@
                             "y": 0,
                             "z": 0
                           },
-                          "usesFlexibleHeight": false,
-                          "usesFlexibleWidth": false,
+                          "usesFlexibleHeight": true,
+                          "usesFlexibleWidth": true,
                           "verticalAlignment": "center",
                           "width": {
                             "unit": {
                               "multiplier": 1,
-                              "unitBase": 10
+                              "unitBase": 20
                             },
-                            "value": 0
+                            "value": 50
                           }
                         }
                       ]
                     },
                     {
                       "modelName": "composition_model",
-                      "name": "2nd hand",
-                      "identifier": "composition_model:5184-6e424e2b-09a0-4a9f-ad9e-5b91a2347b95",
+                      "name": "canvas1",
+                      "identifier": "composition_model:4352-e570f0b8-587d-47c0-a952-f218890573bf",
                       "animationMask": {
                         "position": false,
                         "rotation": false,
                         "scale": false
                       },
                       "cameraVisibility": "back|front",
-                      "height": 844,
+                      "height": 390,
                       "hidden": false,
                       "layerIdentifier": "person",
                       "outputVisibility": "preview|capture",
@@ -478,19 +479,19 @@
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
-                        "sx": 0.0005924170836806297,
-                        "sy": 0.0005924170836806297,
-                        "sz": 0.0005924170836806297,
+                        "sx": 0.0010531859006732702,
+                        "sy": 0.0010531859006732702,
+                        "sz": 0.0010531859006732702,
                         "x": 0,
                         "y": 0,
                         "z": 0
                       },
-                      "width": 390,
+                      "width": 844,
                       "children": [
                         {
                           "modelName": "rectangle_model",
-                          "name": "rectangle0",
-                          "identifier": "rectangle_model:5187-6e424e2b-09a0-4a9f-ad9e-5b91a2347b95",
+                          "name": "Ruj",
+                          "identifier": "rectangle_model:5378-e570f0b8-587d-47c0-a952-f218890573bf",
                           "animationMask": {
                             "position": false,
                             "rotation": false,
@@ -502,15 +503,16 @@
                           "height": {
                             "unit": {
                               "multiplier": 1,
-                              "unitBase": 10
+                              "unitBase": 20
                             },
-                            "value": 0
+                            "value": 75
                           },
                           "hidden": false,
                           "horizontalAlignment": "center",
                           "isMaterialIdentifierEnabled": true,
                           "layerIdentifier": "person",
                           "locksAspectRatio": false,
+                          "materialIdentifier": "defaultMaterial:6674-e570f0b8-587d-47c0-a952-f218890573bf",
                           "outputVisibility": "preview|capture",
                           "physicsEnabled": false,
                           "pinnedBottom": false,
@@ -534,7 +536,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 0
+                            "value": 1111.7021484375
                           },
                           "pinnedRight": false,
                           "pinnedRightValue": {
@@ -550,7 +552,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 0
+                            "value": 682.7091674804688
                           },
                           "pinnedVerticalCenterValue": {
                             "unit": {
@@ -588,15 +590,15 @@
                             "y": 0,
                             "z": 0
                           },
-                          "usesFlexibleHeight": false,
-                          "usesFlexibleWidth": false,
+                          "usesFlexibleHeight": true,
+                          "usesFlexibleWidth": true,
                           "verticalAlignment": "center",
                           "width": {
                             "unit": {
                               "multiplier": 1,
-                              "unitBase": 10
+                              "unitBase": 20
                             },
-                            "value": 0
+                            "value": 50
                           }
                         }
                       ]

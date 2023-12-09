@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "PENUP_20231206_145136(1)",
+  "identifier": "texture:884-fb0b3b03-7d08-490a-9a0f-964cfec87359",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "637fb49f4efa9c4ec2c334d1b82e9bf2",
+  "assetLocator": "textures/PENUP_20231206_145136(1).png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 300,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 300,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "637fb49f4efa9c4ec2c334d1b82e9bf2",
+      "colorCount": 7137,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 5.370770013760843,
+      "pixelsHigh": 300,
+      "pixelsWide": 300
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-d8359d48-bef7-441a-a895-7178271bc30d",
   "id": "2d8359d48bef7441aa8957178271bc30d",
-  "revision": "442d8359d48bef7441aa8957178271bc30d",
+  "revision": "67577572a7aa6a3664f3f923df17a1dd46984",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -24,19 +24,15 @@
       "modelName": "assets_config_model",
       "identifier": "assets_config_model:215-d8359d48-bef7-441a-a895-7178271bc30d",
       "categoriesOrder": [
-        "textures"
+        "textures",
+        "materials"
       ]
     }
   ],
   "projectFormatType": "separated_files",
   "usingPatchesV2": true,
   "visual_programming": {
-    "graphs": [
-      {
-        "modelName": "patch_graph",
-        "identifier": "patch_graph:92-d8359d48-bef7-441a-a895-7178271bc30d"
-      }
-    ]
+    "sectionFileLocation": "hw3.patches"
   },
   "children": [
     {
@@ -44,7 +40,25 @@
       "identifier": "textures:10-d8359d48-bef7-441a-a895-7178271bc30d",
       "children": [
         {
-          "sectionFileLocation": "textures/bg.texture"
+          "sectionFileLocation": "textures/mid_bg.texture"
+        },
+        {
+          "sectionFileLocation": "textures/bottles.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan1.texture"
+        },
+        {
+          "sectionFileLocation": "textures/full_bg.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan2_head.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan2_tail.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan2_body.texture"
         }
       ]
     },
@@ -148,7 +162,7 @@
       "effectUsesCameraControl": false,
       "effectUsesCameraInfoScriptingModule": false,
       "effectUsesCameraShare": false,
-      "effectUsesComponentEvaluation": false,
+      "effectUsesComponentEvaluation": true,
       "effectUsesComposedLocally": false,
       "effectUsesComposedMaterial": false,
       "effectUsesControllers": false,
@@ -230,7 +244,7 @@
       "effectUsesImageAntiAliasing": false,
       "effectUsesImageAssets": false,
       "effectUsesImageBasedLighting": false,
-      "effectUsesInstruction": true,
+      "effectUsesInstruction": false,
       "effectUsesIntent": false,
       "effectUsesInterEffectLinking": false,
       "effectUsesInternalScriptingAPI": false,
@@ -248,7 +262,7 @@
       "effectUsesMaxParticipants": false,
       "effectUsesMicrophone": false,
       "effectUsesMicrophoneV2": false,
-      "effectUsesMovingTargetTracking": true,
+      "effectUsesMovingTargetTracking": false,
       "effectUsesMultipeer": false,
       "effectUsesMultipeerMessaging": false,
       "effectUsesMultiplane": false,
@@ -325,7 +339,7 @@
       "effectUsesSpatialGesture": false,
       "effectUsesSpatialHandTracking": false,
       "effectUsesSplitScreen": false,
-      "effectUsesStaticTargetTracking": false,
+      "effectUsesStaticTargetTracking": true,
       "effectUsesStyleTransfer": false,
       "effectUsesSupportedOrientations": false,
       "effectUsesSvg": false,
@@ -337,7 +351,7 @@
       "effectUsesTexturesScriptingModule": false,
       "effectUsesTimeScriptingModule": false,
       "effectUsesToasterTracking": false,
-      "effectUsesTouchGestures": false,
+      "effectUsesTouchGestures": true,
       "effectUsesTwoDimensionalText": false,
       "effectUsesTypeScript": false,
       "effectUsesUiCore": false,
@@ -390,7 +404,7 @@
       "internalScriptingAPIEventStream": false,
       "internalScriptingAPIExperimentalCameraInfo": false,
       "internalScriptingAPIGlobalTransform": false,
-      "manuallyEnabledItemsIds": null,
+      "manuallyEnabledItemsIds": [],
       "maxParticipantsCount": 0,
       "multiclassSegmentationMinVersion": 3004,
       "objectTrackerMaxObjects": 1,
@@ -414,7 +428,7 @@
       "touchGesturesSupportsPinch": false,
       "touchGesturesSupportsRawTouch": false,
       "touchGesturesSupportsRotate": false,
-      "touchGesturesSupportsTap": false,
+      "touchGesturesSupportsTap": true,
       "whitelistedDomains": null,
       "witAppId": null,
       "witClientToken": null,
@@ -446,6 +460,30 @@
     {
       "modelName": "videos_model",
       "identifier": "videos_model:195-d8359d48-bef7-441a-a895-7178271bc30d"
+    },
+    {
+      "modelName": "materials",
+      "identifier": "materials:58-572a7aa6-a366-4f3f-923d-f17a1dd46984",
+      "children": [
+        {
+          "sectionFileLocation": "materials/swan1.material"
+        },
+        {
+          "sectionFileLocation": "materials/trash_bottle.material"
+        },
+        {
+          "sectionFileLocation": "materials/material0.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan2_head.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan2_body.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan2_tail.material"
+        }
+      ]
     }
   ]
 }

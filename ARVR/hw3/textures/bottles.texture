@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "bottles",
+  "identifier": "texture:7675-572a7aa6-a366-4f3f-923d-f17a1dd46984",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "020c9cc891576236680f9eabccf93d23",
+  "assetLocator": "textures/bottles.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 327,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 121,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "020c9cc891576236680f9eabccf93d23",
+      "colorCount": 2476,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 4.097092222017752,
+      "pixelsHigh": 327,
+      "pixelsWide": 121
+    }
+  ]
+}

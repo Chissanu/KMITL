@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "mid_bg",
+  "identifier": "texture:433-d8359d48-bef7-441a-a895-7178271bc30d",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "ee44c3d47f440ab110b2ebb46d0f4398",
+  "assetLocator": "textures/mid_bg.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 906,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "ee44c3d47f440ab110b2ebb46d0f4398",
+      "colorCount": 355573,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 16.485360927042354,
+      "pixelsHigh": 906,
+      "pixelsWide": 1024
+    }
+  ]
+}

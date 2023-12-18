@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "dog9",
+  "identifier": "texture:10501-160a0b56-b9f2-4e94-9737-84fcdc9e97fa",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "38e92e866ea8ae2b39116592b9102f61",
+  "assetLocator": "textures/dog9.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 225,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 250,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "38e92e866ea8ae2b39116592b9102f61",
+      "colorCount": 705,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 0.6312046138183626,
+      "pixelsHigh": 225,
+      "pixelsWide": 250
+    }
+  ]
+}

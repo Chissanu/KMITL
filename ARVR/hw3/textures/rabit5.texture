@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "rabit5",
+  "identifier": "texture:16933-160a0b56-b9f2-4e94-9737-84fcdc9e97fa",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "8ffb48de45efd8a0740910659fa2afa4",
+  "assetLocator": "textures/rabit5.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 398,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 225,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "8ffb48de45efd8a0740910659fa2afa4",
+      "colorCount": 688,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 0.5457681240121349,
+      "pixelsHigh": 398,
+      "pixelsWide": 225
+    }
+  ]
+}

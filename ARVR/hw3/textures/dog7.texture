@@ -1,10 +1,10 @@
 {
   "modelName": "texture",
-  "name": "swan1",
-  "identifier": "texture:8706-572a7aa6-a366-4f3f-923d-f17a1dd46984",
+  "name": "dog7",
+  "identifier": "texture:10493-160a0b56-b9f2-4e94-9737-84fcdc9e97fa",
   "alphaPremultiplicationMode": "should_premultiply",
-  "assetDataHash": "1e4e20f14e0ccf1b3f5cb55de1d578c7",
-  "assetLocator": "textures/swan1.png",
+  "assetDataHash": "f2def9082b56e812ca1ac88f59bbded4",
+  "assetLocator": "textures/dog7.png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",
@@ -12,25 +12,25 @@
   "excludeFromPackage": false,
   "filter": "bilinear",
   "hasOfflineMipmaps": false,
-  "height": 1024,
+  "height": 225,
   "importIssues": {},
   "isExternalAsset": true,
   "smartTextureTargetSizeLimit": "largest",
   "targetSize": "largest",
   "uWrapMode": "clamp",
   "vWrapMode": "clamp",
-  "width": 767,
+  "width": 250,
   "children": [
     {
       "modelName": "data_texture_metadata_model",
       "name": "data_texture_metadata_model0",
-      "assetDataHash": "1e4e20f14e0ccf1b3f5cb55de1d578c7",
-      "colorCount": 2303,
+      "assetDataHash": "f2def9082b56e812ca1ac88f59bbded4",
+      "colorCount": 528,
       "detectedAlphaChannel": "eight_bit_full_range",
       "detectedOriginalFormat": "png",
-      "entropyOfDistribution": 1.7210681226070679,
-      "pixelsHigh": 1024,
-      "pixelsWide": 767
+      "entropyOfDistribution": 0.43504547793341053,
+      "pixelsHigh": 225,
+      "pixelsWide": 250
     }
   ]
 }

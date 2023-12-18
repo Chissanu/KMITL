@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "rabbit1.1_head",
+  "identifier": "texture:9231-b5179021-c5e9-417c-bbe2-5dc57e1982d7",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "4584fd995d18d604f3bb8f6f8c47d428",
+  "assetLocator": "textures/rabbit1.1_head.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 427,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 223,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "4584fd995d18d604f3bb8f6f8c47d428",
+      "colorCount": 586,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 0.7230216006450646,
+      "pixelsHigh": 427,
+      "pixelsWide": 223
+    }
+  ]
+}

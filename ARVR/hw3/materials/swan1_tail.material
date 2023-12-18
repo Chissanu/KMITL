@@ -1,14 +1,14 @@
 {
   "modelName": "defaultMaterial",
-  "name": "swan1",
-  "identifier": "defaultMaterial:479-572a7aa6-a366-4f3f-923d-f17a1dd46984",
+  "name": "swan1_tail",
+  "identifier": "defaultMaterial:3532-160a0b56-b9f2-4e94-9737-84fcdc9e97fa",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "texture:8706-572a7aa6-a366-4f3f-923d-f17a1dd46984",
+  "diffuseTextureName": "texture:3538-160a0b56-b9f2-4e94-9737-84fcdc9e97fa",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,

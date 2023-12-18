@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-d8359d48-bef7-441a-a895-7178271bc30d",
   "id": "2d8359d48bef7441aa8957178271bc30d",
-  "revision": "67577572a7aa6a3664f3f923df17a1dd46984",
+  "revision": "22488b5179021c5e9417cbbe25dc57e1982d7",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -46,9 +46,6 @@
           "sectionFileLocation": "textures/bottles.texture"
         },
         {
-          "sectionFileLocation": "textures/swan1.texture"
-        },
-        {
           "sectionFileLocation": "textures/full_bg.texture"
         },
         {
@@ -59,6 +56,96 @@
         },
         {
           "sectionFileLocation": "textures/swan2_body.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan1-head.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan1-body.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan1-tail.texture"
+        },
+        {
+          "sectionFileLocation": "textures/dog1.texture"
+        },
+        {
+          "sectionFileLocation": "textures/dog2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/dog3.texture"
+        },
+        {
+          "sectionFileLocation": "textures/dog4.texture"
+        },
+        {
+          "sectionFileLocation": "textures/dog5.texture"
+        },
+        {
+          "sectionFileLocation": "textures/dog6.texture"
+        },
+        {
+          "sectionFileLocation": "textures/dog7.texture"
+        },
+        {
+          "sectionFileLocation": "textures/dog8.texture"
+        },
+        {
+          "sectionFileLocation": "textures/dog9.texture"
+        },
+        {
+          "sectionFileLocation": "textures/rabbit1.texture"
+        },
+        {
+          "sectionFileLocation": "textures/rabit2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/rabit3.texture"
+        },
+        {
+          "sectionFileLocation": "textures/rabit4.texture"
+        },
+        {
+          "sectionFileLocation": "textures/rabit5.texture"
+        },
+        {
+          "sectionFileLocation": "textures/rabit6.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan2.1_head.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan2.1_tail.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan2.1_body.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan1.1_head.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan1.1_body.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan1.1_tail.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan2.1_wing.texture"
+        },
+        {
+          "sectionFileLocation": "textures/swan2.1_tail(1).texture"
+        },
+        {
+          "sectionFileLocation": "textures/rabbit1.1_left_ear.texture"
+        },
+        {
+          "sectionFileLocation": "textures/rabbit1.1_right_ear.texture"
+        },
+        {
+          "sectionFileLocation": "textures/rabbit1.1_body.texture"
+        },
+        {
+          "sectionFileLocation": "textures/rabbit1.1_head-2.texture"
         }
       ]
     },
@@ -466,13 +553,7 @@
       "identifier": "materials:58-572a7aa6-a366-4f3f-923d-f17a1dd46984",
       "children": [
         {
-          "sectionFileLocation": "materials/swan1.material"
-        },
-        {
           "sectionFileLocation": "materials/trash_bottle.material"
-        },
-        {
-          "sectionFileLocation": "materials/material0.material"
         },
         {
           "sectionFileLocation": "materials/swan2_head.material"
@@ -482,6 +563,99 @@
         },
         {
           "sectionFileLocation": "materials/swan2_tail.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan1_head.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan1_body.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan1_tail.material"
+        },
+        {
+          "sectionFileLocation": "materials/dog_1.material"
+        },
+        {
+          "sectionFileLocation": "materials/dog_2.material"
+        },
+        {
+          "sectionFileLocation": "materials/dog_3.material"
+        },
+        {
+          "sectionFileLocation": "materials/dog_4.material"
+        },
+        {
+          "sectionFileLocation": "materials/dog_5.material"
+        },
+        {
+          "sectionFileLocation": "materials/dog_6.material"
+        },
+        {
+          "sectionFileLocation": "materials/dog_7.material"
+        },
+        {
+          "sectionFileLocation": "materials/dog_8.material"
+        },
+        {
+          "sectionFileLocation": "materials/dog_9.material"
+        },
+        {
+          "sectionFileLocation": "materials/dog_10.material"
+        },
+        {
+          "sectionFileLocation": "materials/dog_11.material"
+        },
+        {
+          "sectionFileLocation": "materials/rabbit_1.material"
+        },
+        {
+          "sectionFileLocation": "materials/rabbit_2.material"
+        },
+        {
+          "sectionFileLocation": "materials/rabbit_3.material"
+        },
+        {
+          "sectionFileLocation": "materials/rabbit_4.material"
+        },
+        {
+          "sectionFileLocation": "materials/rabbit_5.material"
+        },
+        {
+          "sectionFileLocation": "materials/rabbit_6.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan2.1_head.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan2.1_tail.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan2.1_body.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan1.1_head.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan1.1_body.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan1.1_tail.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan2.1_wing.material"
+        },
+        {
+          "sectionFileLocation": "materials/rabbit1.1_left_ear.material"
+        },
+        {
+          "sectionFileLocation": "materials/rabbit1.1_right_ear.material"
+        },
+        {
+          "sectionFileLocation": "materials/rabbit1.1_body.material"
+        },
+        {
+          "sectionFileLocation": "materials/rabbit1.1_head-2.material"
         }
       ]
     }

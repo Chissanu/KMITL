@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-d8359d48-bef7-441a-a895-7178271bc30d",
   "id": "2d8359d48bef7441aa8957178271bc30d",
-  "revision": "22488b5179021c5e9417cbbe25dc57e1982d7",
+  "revision": "3128206feaed2b761246358715a8d31e748bdb",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -25,7 +25,8 @@
       "identifier": "assets_config_model:215-d8359d48-bef7-441a-a895-7178271bc30d",
       "categoriesOrder": [
         "textures",
-        "materials"
+        "materials",
+        "animation_sequences"
       ]
     }
   ],
@@ -39,9 +40,6 @@
       "modelName": "textures",
       "identifier": "textures:10-d8359d48-bef7-441a-a895-7178271bc30d",
       "children": [
-        {
-          "sectionFileLocation": "textures/mid_bg.texture"
-        },
         {
           "sectionFileLocation": "textures/bottles.texture"
         },
@@ -115,9 +113,6 @@
           "sectionFileLocation": "textures/swan2.1_head.texture"
         },
         {
-          "sectionFileLocation": "textures/swan2.1_tail.texture"
-        },
-        {
           "sectionFileLocation": "textures/swan2.1_body.texture"
         },
         {
@@ -136,16 +131,376 @@
           "sectionFileLocation": "textures/swan2.1_tail(1).texture"
         },
         {
-          "sectionFileLocation": "textures/rabbit1.1_left_ear.texture"
+          "modelName": "sequenceTexture",
+          "name": "rabbit_sequence",
+          "identifier": "sequenceTexture:20496-a262f307-0a3c-4e20-bcfb-047a08c520df",
+          "frameRate": 4,
+          "isSourceTextureIdentifierEnabled": true,
+          "sourceTextureIdentifier": "textureGroup:94765-a262f307-0a3c-4e20-bcfb-047a08c520df"
         },
         {
-          "sectionFileLocation": "textures/rabbit1.1_right_ear.texture"
+          "modelName": "sequenceTexture",
+          "name": "swan2_animation",
+          "identifier": "sequenceTexture:20498-a262f307-0a3c-4e20-bcfb-047a08c520df",
+          "frameRate": 3,
+          "isSourceTextureIdentifierEnabled": true,
+          "sourceTextureIdentifier": "textureGroup:107921-6feaed2b-7612-4635-8715-a8d31e748bdb"
         },
         {
-          "sectionFileLocation": "textures/rabbit1.1_body.texture"
+          "modelName": "sequenceTexture",
+          "name": "dog_animation",
+          "identifier": "sequenceTexture:79452-a262f307-0a3c-4e20-bcfb-047a08c520df",
+          "frameRate": 3,
+          "isSourceTextureIdentifierEnabled": true,
+          "sourceTextureIdentifier": "textureGroup:84084-a262f307-0a3c-4e20-bcfb-047a08c520df"
         },
         {
-          "sectionFileLocation": "textures/rabbit1.1_head-2.texture"
+          "modelName": "textureGroup",
+          "name": "Dog-[1-16]",
+          "identifier": "textureGroup:84084-a262f307-0a3c-4e20-bcfb-047a08c520df",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:83926-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:83936-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:83946-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:83956-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:83966-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:83976-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:83986-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:83996-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:84006-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:84016-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:84026-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:84036-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:84046-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:84056-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:84066-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:84076-a262f307-0a3c-4e20-bcfb-047a08c520df"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/Dog-11-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-12-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-13-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-14-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-15-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-16-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-17.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-18.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-19.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-20.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-21.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-22.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-23.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-24.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-25.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Dog-26.texture"
+            }
+          ]
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "Rabbit-[1-40]",
+          "identifier": "textureGroup:94765-a262f307-0a3c-4e20-bcfb-047a08c520df",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:94367-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94377-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94387-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94397-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94407-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94417-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94427-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94437-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94447-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94457-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94467-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94477-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94487-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94497-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94507-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94517-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94527-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94537-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94547-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94557-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94567-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94577-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94587-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94597-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94607-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94617-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94627-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94637-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94647-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94657-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94667-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94677-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94687-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94697-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94707-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94717-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94727-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94737-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94747-a262f307-0a3c-4e20-bcfb-047a08c520df",
+            "texture:94757-a262f307-0a3c-4e20-bcfb-047a08c520df"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/Rabbit-11-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-12-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-13-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-14-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-15-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-16-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-17-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-18-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-19-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-20-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-21-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-22-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-23-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-24-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-25-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-26-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-27-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-28-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-29-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-30-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-31-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-32-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-33-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-34-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-35-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-36-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-37-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-38-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-39-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-40-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-41-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-42-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-43-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-44-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-45-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-46-3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-47-3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-48-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-49-3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Rabbit-50-2.texture"
+            }
+          ]
+        },
+        {
+          "sectionFileLocation": "textures/Glass_Bottle.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Trash.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Bottle-1.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Bag-1.texture"
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "Swan_Left-[1-7]",
+          "identifier": "textureGroup:107921-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:107853-6feaed2b-7612-4635-8715-a8d31e748bdb",
+            "texture:107863-6feaed2b-7612-4635-8715-a8d31e748bdb",
+            "texture:107873-6feaed2b-7612-4635-8715-a8d31e748bdb",
+            "texture:107883-6feaed2b-7612-4635-8715-a8d31e748bdb",
+            "texture:107893-6feaed2b-7612-4635-8715-a8d31e748bdb",
+            "texture:107903-6feaed2b-7612-4635-8715-a8d31e748bdb",
+            "texture:107913-6feaed2b-7612-4635-8715-a8d31e748bdb"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/Swan_Left-1.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Swan_Left-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Swan_Left-3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Swan_Left-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Swan_Left-5.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Swan_Left-6.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Swan_Left-7.texture"
+            }
+          ]
+        },
+        {
+          "modelName": "sequenceTexture",
+          "name": "swan1_sequence",
+          "identifier": "sequenceTexture:108879-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "frameRate": 3,
+          "isSourceTextureIdentifierEnabled": true,
+          "sourceTextureIdentifier": "textureGroup:108951-6feaed2b-7612-4635-8715-a8d31e748bdb"
+        },
+        {
+          "modelName": "textureGroup",
+          "name": "Swan_right-[1-7]",
+          "identifier": "textureGroup:108951-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:108883-6feaed2b-7612-4635-8715-a8d31e748bdb",
+            "texture:108893-6feaed2b-7612-4635-8715-a8d31e748bdb",
+            "texture:108903-6feaed2b-7612-4635-8715-a8d31e748bdb",
+            "texture:108913-6feaed2b-7612-4635-8715-a8d31e748bdb",
+            "texture:108923-6feaed2b-7612-4635-8715-a8d31e748bdb",
+            "texture:108933-6feaed2b-7612-4635-8715-a8d31e748bdb",
+            "texture:108943-6feaed2b-7612-4635-8715-a8d31e748bdb"
+          ],
+          "children": [
+            {
+              "sectionFileLocation": "textures/Swan_right-1.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Swan_right-2.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Swan_right-3.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Swan_right-4.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Swan_right-5.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Swan_right-6.texture"
+            },
+            {
+              "sectionFileLocation": "textures/Swan_right-7.texture"
+            }
+          ]
+        },
+        {
+          "sectionFileLocation": "textures/IMG_8986-3.texture"
+        },
+        {
+          "sectionFileLocation": "textures/IMG_8986-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/IMG_8986-1.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Dog-11(1)-2.texture"
         }
       ]
     },
@@ -184,7 +539,146 @@
     },
     {
       "modelName": "exportConfig",
-      "identifier": "exportConfig:50-d8359d48-bef7-441a-a895-7178271bc30d"
+      "identifier": "exportConfig:50-d8359d48-bef7-441a-a895-7178271bc30d",
+      "globalCompressionDefaultOn": false,
+      "children": [
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:45247-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:45249-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:45251-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:47611-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:47613-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:47615-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:47621-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:47623-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:47625-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:47631-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:47633-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:47635-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:125623-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:125625-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:125627-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:125633-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:125635-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:125637-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:128250-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:128252-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:128254-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:167852-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:167854-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:167856-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 2
+        }
+      ]
     },
     {
       "modelName": "manifest",
@@ -447,7 +941,7 @@
       "effectUsesUnitsScriptingModule": false,
       "effectUsesVariadicMath": false,
       "effectUsesVertexTextureFetch": false,
-      "effectUsesVisualShaders": false,
+      "effectUsesVisualShaders": true,
       "effectUsesVisualShadersSdf": false,
       "effectUsesVoiceInteraction": false,
       "effectUsesWarpPostProcessor": false,
@@ -646,16 +1140,37 @@
           "sectionFileLocation": "materials/swan2.1_wing.material"
         },
         {
-          "sectionFileLocation": "materials/rabbit1.1_left_ear.material"
+          "sectionFileLocation": "materials/rabbit_sequence.material"
         },
         {
-          "sectionFileLocation": "materials/rabbit1.1_right_ear.material"
+          "sectionFileLocation": "materials/dog_sequence.material"
         },
         {
-          "sectionFileLocation": "materials/rabbit1.1_body.material"
+          "sectionFileLocation": "materials/main_wave.material"
         },
         {
-          "sectionFileLocation": "materials/rabbit1.1_head-2.material"
+          "sectionFileLocation": "materials/second_wave.material"
+        },
+        {
+          "sectionFileLocation": "materials/trash2.material"
+        },
+        {
+          "sectionFileLocation": "materials/trash3.material"
+        },
+        {
+          "sectionFileLocation": "materials/trash4.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan1_animation.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan2_animation.material"
+        },
+        {
+          "sectionFileLocation": "materials/third_wave.material"
+        },
+        {
+          "sectionFileLocation": "materials/doggo.material"
         }
       ]
     }

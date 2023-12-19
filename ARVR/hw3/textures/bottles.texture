@@ -2,7 +2,7 @@
   "modelName": "texture",
   "name": "bottles",
   "identifier": "texture:7675-572a7aa6-a366-4f3f-923d-f17a1dd46984",
-  "alphaPremultiplicationMode": "should_premultiply",
+  "alphaPremultiplicationMode": "none",
   "assetDataHash": "020c9cc891576236680f9eabccf93d23",
   "assetLocator": "textures/bottles.png",
   "colorEncoding": "linear",

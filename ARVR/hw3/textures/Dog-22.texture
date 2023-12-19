@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Dog-22",
+  "identifier": "texture:84036-a262f307-0a3c-4e20-bcfb-047a08c520df",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "c4659f1c07a05b2e1df0f66cb939427a",
+  "assetLocator": "textures/Dog-22.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 281,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 468,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "c4659f1c07a05b2e1df0f66cb939427a",
+      "colorCount": 1200,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 1.2785866684298088,
+      "pixelsHigh": 281,
+      "pixelsWide": 468
+    }
+  ]
+}

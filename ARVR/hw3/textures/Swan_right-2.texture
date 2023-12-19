@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Swan_right-2",
+  "identifier": "texture:108893-6feaed2b-7612-4635-8715-a8d31e748bdb",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "9797350e39b4fc26962d576b636402b2",
+  "assetLocator": "textures/Swan_right-2.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 636,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 592,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "9797350e39b4fc26962d576b636402b2",
+      "colorCount": 645,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 1.4597517012788952,
+      "pixelsHigh": 636,
+      "pixelsWide": 592
+    }
+  ]
+}

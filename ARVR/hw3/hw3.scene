@@ -217,6 +217,44 @@
                   "children": [
                     {
                       "modelName": "plane",
+                      "name": "trash2",
+                      "identifier": "plane:25601-572a7aa6-a366-4f3f-923d-f17a1dd46984",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:45253-6feaed2b-7612-4635-8715-a8d31e748bdb",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 0.30000004172325134,
+                        "sy": 0.4000000059604645,
+                        "sz": 3,
+                        "x": 0.11919885873794556,
+                        "y": -0.002878863364458084,
+                        "z": 0.0010001659393310547
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
+                    },
+                    {
+                      "modelName": "plane",
                       "name": "third_wave",
                       "identifier": "plane:128238-6feaed2b-7612-4635-8715-a8d31e748bdb",
                       "animationMask": {
@@ -252,6 +290,151 @@
                       },
                       "verticalAlignment": "center",
                       "verticalSpacing": 0
+                    },
+                    {
+                      "modelName": "plane",
+                      "name": "trash4",
+                      "identifier": "plane:31742-572a7aa6-a366-4f3f-923d-f17a1dd46984",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:46943-6feaed2b-7612-4635-8715-a8d31e748bdb",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 0.29999998211860657,
+                        "sy": 0.4000000059604645,
+                        "sz": 3,
+                        "x": -0.023342277854681015,
+                        "y": -0.021536830812692642,
+                        "z": 0.0009999871253967285
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
+                    },
+                    {
+                      "modelName": "sceneObject",
+                      "name": "swan2_1",
+                      "identifier": "sceneObject:1297-02b141c1-a630-4f02-8eb1-723f5cfee3e8",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "hidden": false,
+                      "layerIdentifier": "layer0",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "shapeColor": "0xff808080",
+                      "shapeType": 0,
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0.0008685886859893799,
+                        "y": 4.316680133342743E-7,
+                        "z": 0.0010000000474974513
+                      },
+                      "children": [
+                        {
+                          "modelName": "plane",
+                          "name": "swan2_1_idle",
+                          "identifier": "plane:250604-95aa5017-0f77-4193-9507-dcaa11fa674f",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "castShadow": false,
+                          "hidden": false,
+                          "horizontalAlignment": "center",
+                          "horizontalSpacing": 0,
+                          "isMaterialIdentifierEnabled": true,
+                          "layerIdentifier": "layer0",
+                          "materialIdentifier": "defaultMaterial:247095-95aa5017-0f77-4193-9507-dcaa11fa674f",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "receiveShadow": false,
+                          "renderPass": "main_scene",
+                          "tags": [],
+                          "textureHeight": 0.1,
+                          "textureWidth": 0.1,
+                          "transform": {
+                            "rx": 0,
+                            "ry": -0,
+                            "rz": 0,
+                            "sx": 0.6000000238418579,
+                            "sy": 0.6000000238418579,
+                            "sz": 1,
+                            "x": -0.10313999652862549,
+                            "y": 0.0020000000949949026,
+                            "z": 0.0010000000474974513
+                          },
+                          "verticalAlignment": "center",
+                          "verticalSpacing": 0
+                        },
+                        {
+                          "modelName": "plane",
+                          "name": "swan2_1_animation",
+                          "identifier": "plane:79448-a262f307-0a3c-4e20-bcfb-047a08c520df",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "castShadow": false,
+                          "hidden": false,
+                          "horizontalAlignment": "center",
+                          "horizontalSpacing": 0,
+                          "isMaterialIdentifierEnabled": true,
+                          "layerIdentifier": "layer0",
+                          "materialIdentifier": "defaultMaterial:112539-6feaed2b-7612-4635-8715-a8d31e748bdb",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "receiveShadow": false,
+                          "renderPass": "main_scene",
+                          "tags": [],
+                          "textureHeight": 0.1,
+                          "textureWidth": 0.1,
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 0.6000000238418579,
+                            "sy": 0.6000000238418579,
+                            "sz": 1,
+                            "x": -0.10313999652862549,
+                            "y": -0.00431999983265996,
+                            "z": 0.0010000000474974513
+                          },
+                          "verticalAlignment": "center",
+                          "verticalSpacing": 0
+                        }
+                      ]
                     },
                     {
                       "modelName": "plane",
@@ -293,8 +476,8 @@
                     },
                     {
                       "modelName": "plane",
-                      "name": "main_wave",
-                      "identifier": "plane39175-6feaed2b-7612-4635-8715-a8d31e748bdb",
+                      "name": "trash3",
+                      "identifier": "plane:25824-572a7aa6-a366-4f3f-923d-f17a1dd46984",
                       "animationMask": {
                         "position": false,
                         "rotation": false,
@@ -307,7 +490,7 @@
                       "horizontalSpacing": 0,
                       "isMaterialIdentifierEnabled": true,
                       "layerIdentifier": "layer0",
-                      "materialIdentifier": "defaultMaterial:7906-6feaed2b-7612-4635-8715-a8d31e748bdb",
+                      "materialIdentifier": "defaultMaterial:45768-6feaed2b-7612-4635-8715-a8d31e748bdb",
                       "outputVisibility": "preview|capture",
                       "physicsEnabled": false,
                       "receiveShadow": false,
@@ -319,11 +502,11 @@
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
-                        "sx": 3,
-                        "sy": 3,
-                        "sz": 1,
-                        "x": -0.0002099999983329326,
-                        "y": 0.04332999885082245,
+                        "sx": 0.19999998807907104,
+                        "sy": 0.3999999761581421,
+                        "sz": 3,
+                        "x": 0.10286688804626465,
+                        "y": -0.04087000712752342,
                         "z": 0.001000046730041504
                       },
                       "verticalAlignment": "center",
@@ -357,129 +540,122 @@
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
-                        "sx": 0.30000001192092896,
+                        "sx": 0.30000004172325134,
                         "sy": 0.4000000059604645,
                         "sz": 3.000000238418579,
-                        "x": -0.0605507530272007,
-                        "y": -0.031703367829322815,
-                        "z": 0.009920954704284668
+                        "x": -0.07111387699842453,
+                        "y": -0.04371635615825653,
+                        "z": 0.001000046730041504
                       },
                       "verticalAlignment": "center",
                       "verticalSpacing": 0
                     },
                     {
-                      "modelName": "plane",
-                      "name": "trash2",
-                      "identifier": "plane:25601-572a7aa6-a366-4f3f-923d-f17a1dd46984",
+                      "modelName": "sceneObject",
+                      "name": "swan1_1",
+                      "identifier": "sceneObject:37253-02b141c1-a630-4f02-8eb1-723f5cfee3e8",
                       "animationMask": {
                         "position": false,
                         "rotation": false,
                         "scale": false
                       },
                       "cameraVisibility": "back|front",
-                      "castShadow": false,
                       "hidden": false,
-                      "horizontalAlignment": "center",
-                      "horizontalSpacing": 0,
-                      "isMaterialIdentifierEnabled": true,
                       "layerIdentifier": "layer0",
-                      "materialIdentifier": "defaultMaterial:45253-6feaed2b-7612-4635-8715-a8d31e748bdb",
                       "outputVisibility": "preview|capture",
                       "physicsEnabled": false,
-                      "receiveShadow": false,
-                      "renderPass": "main_scene",
+                      "shapeColor": "0xff808080",
+                      "shapeType": 0,
                       "tags": [],
-                      "textureHeight": 0.1,
-                      "textureWidth": 0.1,
                       "transform": {
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
-                        "sx": 0.30000001192092896,
-                        "sy": 0.4000000059604645,
-                        "sz": 3,
-                        "x": 0.11439113318920135,
-                        "y": -0.0320960208773613,
-                        "z": 0.009999990463256836
+                        "sx": 1.100000023841858,
+                        "sy": 1.100000023841858,
+                        "sz": 1,
+                        "x": 0.04328198730945587,
+                        "y": -0.0008391155861318111,
+                        "z": 0.0010000000474974513
                       },
-                      "verticalAlignment": "center",
-                      "verticalSpacing": 0
-                    },
-                    {
-                      "modelName": "plane",
-                      "name": "trash3",
-                      "identifier": "plane:25824-572a7aa6-a366-4f3f-923d-f17a1dd46984",
-                      "animationMask": {
-                        "position": false,
-                        "rotation": false,
-                        "scale": false
-                      },
-                      "cameraVisibility": "back|front",
-                      "castShadow": false,
-                      "hidden": false,
-                      "horizontalAlignment": "center",
-                      "horizontalSpacing": 0,
-                      "isMaterialIdentifierEnabled": true,
-                      "layerIdentifier": "layer0",
-                      "materialIdentifier": "defaultMaterial:45768-6feaed2b-7612-4635-8715-a8d31e748bdb",
-                      "outputVisibility": "preview|capture",
-                      "physicsEnabled": false,
-                      "receiveShadow": false,
-                      "renderPass": "main_scene",
-                      "tags": [],
-                      "textureHeight": 0.1,
-                      "textureWidth": 0.1,
-                      "transform": {
-                        "rx": 0,
-                        "ry": 0,
-                        "rz": 0,
-                        "sx": 0.20000000298023224,
-                        "sy": 0.4000000059604645,
-                        "sz": 3,
-                        "x": -0.02963155321776867,
-                        "y": -0.062263961881399155,
-                        "z": 0.00999993085861206
-                      },
-                      "verticalAlignment": "center",
-                      "verticalSpacing": 0
-                    },
-                    {
-                      "modelName": "plane",
-                      "name": "trash4",
-                      "identifier": "plane:31742-572a7aa6-a366-4f3f-923d-f17a1dd46984",
-                      "animationMask": {
-                        "position": false,
-                        "rotation": false,
-                        "scale": false
-                      },
-                      "cameraVisibility": "back|front",
-                      "castShadow": false,
-                      "hidden": false,
-                      "horizontalAlignment": "center",
-                      "horizontalSpacing": 0,
-                      "isMaterialIdentifierEnabled": true,
-                      "layerIdentifier": "layer0",
-                      "materialIdentifier": "defaultMaterial:46943-6feaed2b-7612-4635-8715-a8d31e748bdb",
-                      "outputVisibility": "preview|capture",
-                      "physicsEnabled": false,
-                      "receiveShadow": false,
-                      "renderPass": "main_scene",
-                      "tags": [],
-                      "textureHeight": 0.1,
-                      "textureWidth": 0.1,
-                      "transform": {
-                        "rx": 0,
-                        "ry": 0,
-                        "rz": 0,
-                        "sx": 0.30000001192092896,
-                        "sy": 0.4000000059604645,
-                        "sz": 3,
-                        "x": -0.12456528097391129,
-                        "y": -0.05880162864923477,
-                        "z": 0.009999999776482582
-                      },
-                      "verticalAlignment": "center",
-                      "verticalSpacing": 0
+                      "children": [
+                        {
+                          "modelName": "plane",
+                          "name": "swan1_animation",
+                          "identifier": "plane:109941-6feaed2b-7612-4635-8715-a8d31e748bdb",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "castShadow": false,
+                          "hidden": false,
+                          "horizontalAlignment": "center",
+                          "horizontalSpacing": 0,
+                          "isMaterialIdentifierEnabled": true,
+                          "layerIdentifier": "layer0",
+                          "materialIdentifier": "defaultMaterial:109945-6feaed2b-7612-4635-8715-a8d31e748bdb",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "receiveShadow": false,
+                          "renderPass": "main_scene",
+                          "tags": [],
+                          "textureHeight": 0.1,
+                          "textureWidth": 0.1,
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 1,
+                            "sy": 1,
+                            "sz": 1,
+                            "x": -0.011655443347990513,
+                            "y": 2.3265602067112923E-7,
+                            "z": 1.1920928955078125E-7
+                          },
+                          "verticalAlignment": "center",
+                          "verticalSpacing": 0
+                        },
+                        {
+                          "modelName": "plane",
+                          "name": "swan1_idle_animation",
+                          "identifier": "plane:213866-95aa5017-0f77-4193-9507-dcaa11fa674f",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "castShadow": false,
+                          "hidden": false,
+                          "horizontalAlignment": "center",
+                          "horizontalSpacing": 0,
+                          "isMaterialIdentifierEnabled": true,
+                          "layerIdentifier": "layer0",
+                          "materialIdentifier": "defaultMaterial:23130-95aa5017-0f77-4193-9507-dcaa11fa674f",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "receiveShadow": false,
+                          "renderPass": "main_scene",
+                          "tags": [],
+                          "textureHeight": 0.1,
+                          "textureWidth": 0.1,
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 1,
+                            "sy": 1,
+                            "sz": 1,
+                            "x": -0.011659996584057808,
+                            "y": -0.00203999993391335,
+                            "z": 0
+                          },
+                          "verticalAlignment": "center",
+                          "verticalSpacing": 0
+                        }
+                      ]
                     },
                     {
                       "modelName": "sceneObject",
@@ -618,7 +794,7 @@
                             "sy": 1,
                             "sz": 1,
                             "x": 8.381903171539307E-7,
-                            "y": -0.00045377761125564575,
+                            "y": -0.00044999999227002263,
                             "z": 0
                           },
                           "verticalAlignment": "center",
@@ -627,73 +803,42 @@
                       ]
                     },
                     {
-                      "modelName": "sceneObject",
-                      "name": "swan1_1",
-                      "identifier": "sceneObject:37253-02b141c1-a630-4f02-8eb1-723f5cfee3e8",
+                      "modelName": "plane",
+                      "name": "main_wave",
+                      "identifier": "plane39175-6feaed2b-7612-4635-8715-a8d31e748bdb",
                       "animationMask": {
                         "position": false,
                         "rotation": false,
                         "scale": false
                       },
                       "cameraVisibility": "back|front",
+                      "castShadow": false,
                       "hidden": false,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
                       "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:7906-6feaed2b-7612-4635-8715-a8d31e748bdb",
                       "outputVisibility": "preview|capture",
                       "physicsEnabled": false,
-                      "shapeColor": "0xff808080",
-                      "shapeType": 0,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
                       "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
                       "transform": {
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
-                        "sx": 1.100000023841858,
-                        "sy": 1.100000023841858,
+                        "sx": 3,
+                        "sy": 3,
                         "sz": 1,
-                        "x": 0.04328198730945587,
-                        "y": -0.0008391155861318111,
-                        "z": 0.0010000000474974513
+                        "x": -0.0002099999983329326,
+                        "y": 0.04332999885082245,
+                        "z": 0.001000046730041504
                       },
-                      "children": [
-                        {
-                          "modelName": "plane",
-                          "name": "swan1_animation",
-                          "identifier": "plane:109941-6feaed2b-7612-4635-8715-a8d31e748bdb",
-                          "animationMask": {
-                            "position": false,
-                            "rotation": false,
-                            "scale": false
-                          },
-                          "cameraVisibility": "back|front",
-                          "castShadow": false,
-                          "hidden": false,
-                          "horizontalAlignment": "center",
-                          "horizontalSpacing": 0,
-                          "isMaterialIdentifierEnabled": true,
-                          "layerIdentifier": "layer0",
-                          "materialIdentifier": "defaultMaterial:109945-6feaed2b-7612-4635-8715-a8d31e748bdb",
-                          "outputVisibility": "preview|capture",
-                          "physicsEnabled": false,
-                          "receiveShadow": false,
-                          "renderPass": "main_scene",
-                          "tags": [],
-                          "textureHeight": 0.1,
-                          "textureWidth": 0.1,
-                          "transform": {
-                            "rx": 0,
-                            "ry": 0,
-                            "rz": 0,
-                            "sx": 1,
-                            "sy": 1,
-                            "sz": 1,
-                            "x": -0.011655443347990513,
-                            "y": 2.3265602067112923E-7,
-                            "z": 1.1920928955078125E-7
-                          },
-                          "verticalAlignment": "center",
-                          "verticalSpacing": 0
-                        }
-                      ]
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
                     },
                     {
                       "modelName": "sceneObject",
@@ -834,75 +979,6 @@
                             "x": 4.470348358154297E-8,
                             "y": 0,
                             "z": 0
-                          },
-                          "verticalAlignment": "center",
-                          "verticalSpacing": 0
-                        }
-                      ]
-                    },
-                    {
-                      "modelName": "sceneObject",
-                      "name": "swan2_1",
-                      "identifier": "sceneObject:1297-02b141c1-a630-4f02-8eb1-723f5cfee3e8",
-                      "animationMask": {
-                        "position": false,
-                        "rotation": false,
-                        "scale": false
-                      },
-                      "cameraVisibility": "back|front",
-                      "hidden": false,
-                      "layerIdentifier": "layer0",
-                      "outputVisibility": "preview|capture",
-                      "physicsEnabled": false,
-                      "shapeColor": "0xff808080",
-                      "shapeType": 0,
-                      "tags": [],
-                      "transform": {
-                        "rx": 0,
-                        "ry": 0,
-                        "rz": 0,
-                        "sx": 1,
-                        "sy": 1,
-                        "sz": 1,
-                        "x": 0.0008685886859893799,
-                        "y": 4.316680133342743E-7,
-                        "z": 0.0010000000474974513
-                      },
-                      "children": [
-                        {
-                          "modelName": "plane",
-                          "name": "swan2_1_animation",
-                          "identifier": "plane:79448-a262f307-0a3c-4e20-bcfb-047a08c520df",
-                          "animationMask": {
-                            "position": false,
-                            "rotation": false,
-                            "scale": false
-                          },
-                          "cameraVisibility": "back|front",
-                          "castShadow": false,
-                          "hidden": false,
-                          "horizontalAlignment": "center",
-                          "horizontalSpacing": 0,
-                          "isMaterialIdentifierEnabled": true,
-                          "layerIdentifier": "layer0",
-                          "materialIdentifier": "defaultMaterial:112539-6feaed2b-7612-4635-8715-a8d31e748bdb",
-                          "outputVisibility": "preview|capture",
-                          "physicsEnabled": false,
-                          "receiveShadow": false,
-                          "renderPass": "main_scene",
-                          "tags": [],
-                          "textureHeight": 0.1,
-                          "textureWidth": 0.1,
-                          "transform": {
-                            "rx": 0,
-                            "ry": 0,
-                            "rz": 0,
-                            "sx": 0.6000000238418579,
-                            "sy": 0.6000000238418579,
-                            "sz": 1,
-                            "x": -0.10314002633094788,
-                            "y": -0.00431774603202939,
-                            "z": 0.0010001659393310547
                           },
                           "verticalAlignment": "center",
                           "verticalSpacing": 0
@@ -1304,16 +1380,16 @@
                         "ry": 0,
                         "rz": 0,
                         "sx": 0.699999988079071,
-                        "sy": 0.5,
+                        "sy": 0.699999988079071,
                         "sz": 1,
-                        "x": -0.023329999297857285,
-                        "y": 0.01916000060737133,
-                        "z": 0.009999999776482582
+                        "x": -0.02332986891269684,
+                        "y": 0.03340990096330643,
+                        "z": 0.009999990463256836
                       },
                       "children": [
                         {
                           "modelName": "plane",
-                          "name": "dog_animation",
+                          "name": "dog_idle",
                           "identifier": "plane:80376-a262f307-0a3c-4e20-bcfb-047a08c520df",
                           "animationMask": {
                             "position": false,
@@ -1322,7 +1398,7 @@
                           },
                           "cameraVisibility": "back|front",
                           "castShadow": false,
-                          "hidden": true,
+                          "hidden": false,
                           "horizontalAlignment": "center",
                           "horizontalSpacing": 0,
                           "isMaterialIdentifierEnabled": true,
@@ -1339,12 +1415,12 @@
                             "rx": 0,
                             "ry": 0,
                             "rz": 0,
-                            "sx": 1,
-                            "sy": 1,
-                            "sz": 1,
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
+                            "sx": 0.9999996423721313,
+                            "sy": 0.9999996423721313,
+                            "sz": 0.9999997615814209,
+                            "x": -0.00570000009611249,
+                            "y": -0.0040699997916817665,
+                            "z": 0.009999999776482582
                           },
                           "verticalAlignment": "center",
                           "verticalSpacing": 0
@@ -1375,7 +1451,7 @@
                           "textureWidth": 0.1,
                           "transform": {
                             "rx": 0,
-                            "ry": -0,
+                            "ry": 0,
                             "rz": 0,
                             "sx": 1,
                             "sy": 1,
@@ -1716,6 +1792,44 @@
                           "verticalSpacing": 0
                         }
                       ]
+                    },
+                    {
+                      "modelName": "plane",
+                      "name": "brick overlay",
+                      "identifier": "plane:317898-95aa5017-0f77-4193-9507-dcaa11fa674f",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": "center",
+                      "horizontalSpacing": 0,
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer0",
+                      "materialIdentifier": "defaultMaterial:317902-95aa5017-0f77-4193-9507-dcaa11fa674f",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": -0,
+                        "rz": 0,
+                        "sx": 3,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": -0.000008946284651756287,
+                        "y": -0.055534541606903076,
+                        "z": 0.10000000149011612
+                      },
+                      "verticalAlignment": "center",
+                      "verticalSpacing": 0
                     }
                   ]
                 }

@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Dog-13(2)",
+  "identifier": "texture:329431-95aa5017-0f77-4193-9507-dcaa11fa674f",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "f122ce5eac92c62ecc774576b56bd2b5",
+  "assetLocator": "textures/Dog-13(2).png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 561,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 648,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "f122ce5eac92c62ecc774576b56bd2b5",
+      "colorCount": 1411,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 0.6549873221978414,
+      "pixelsHigh": 561,
+      "pixelsWide": 648
+    }
+  ]
+}

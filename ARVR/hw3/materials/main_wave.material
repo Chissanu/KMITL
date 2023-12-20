@@ -7,7 +7,7 @@
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
-  "diffuseFactor": "0xffffffff",
+  "diffuseFactor": "0xffe1e1e1",
   "diffuseTextureName": "texture:125621-6feaed2b-7612-4635-8715-a8d31e748bdb",
   "diffuseTextureTransform": {
     "offsetU": 0,

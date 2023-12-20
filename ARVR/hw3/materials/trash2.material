@@ -2,7 +2,7 @@
   "modelName": "defaultMaterial",
   "name": "trash2",
   "identifier": "defaultMaterial:45253-6feaed2b-7612-4635-8715-a8d31e748bdb",
-  "alphaTestEnabled": false,
+  "alphaTestEnabled": true,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",

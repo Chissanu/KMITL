@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Rabbit-45",
+  "identifier": "texture:94707-a262f307-0a3c-4e20-bcfb-047a08c520df",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "b50652dc9061972991209188a6692c1d",
+  "assetLocator": "textures/Rabbit-45.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 427,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 247,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "b50652dc9061972991209188a6692c1d",
+      "colorCount": 2228,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 2.9727560701865547,
+      "pixelsHigh": 427,
+      "pixelsWide": 247
+    }
+  ]
+}

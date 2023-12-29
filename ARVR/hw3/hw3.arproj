@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-d8359d48-bef7-441a-a895-7178271bc30d",
   "id": "2d8359d48bef7441aa8957178271bc30d",
-  "revision": "33922095aa50170f7741939507dcaa11fa674f",
+  "revision": "145411a55ea5fc441d4d5d8487876cc460faae",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -108,7 +108,7 @@
         },
         {
           "modelName": "sequenceTexture",
-          "name": "rabbit_sequence",
+          "name": "rabbit_s",
           "identifier": "sequenceTexture:20496-a262f307-0a3c-4e20-bcfb-047a08c520df",
           "frameRate": 4,
           "isSourceTextureIdentifierEnabled": true,
@@ -116,7 +116,7 @@
         },
         {
           "modelName": "sequenceTexture",
-          "name": "swan2_animation",
+          "name": "swan2_i",
           "identifier": "sequenceTexture:20498-a262f307-0a3c-4e20-bcfb-047a08c520df",
           "frameRate": 6,
           "isSourceTextureIdentifierEnabled": true,
@@ -305,7 +305,7 @@
         },
         {
           "modelName": "sequenceTexture",
-          "name": "swan2_idle_animation",
+          "name": "swan2_i_s",
           "identifier": "sequenceTexture246446-95aa5017-0f77-4193-9507-dcaa11fa674f",
           "frameRate": 1,
           "isSourceTextureIdentifierEnabled": true,
@@ -313,7 +313,7 @@
         },
         {
           "modelName": "sequenceTexture",
-          "name": "swan1_sequence",
+          "name": "swan1_s",
           "identifier": "sequenceTexture:108879-6feaed2b-7612-4635-8715-a8d31e748bdb",
           "frameRate": 3,
           "isSourceTextureIdentifierEnabled": true,
@@ -329,11 +329,8 @@
           "sectionFileLocation": "textures/third_wave.texture"
         },
         {
-          "sectionFileLocation": "textures/Dog-11(1)-2.texture"
-        },
-        {
           "modelName": "sequenceTexture",
-          "name": "swan1_idle_sequence",
+          "name": "swan1_i_a",
           "identifier": "sequenceTexture:23128-95aa5017-0f77-4193-9507-dcaa11fa674f",
           "frameRate": 1,
           "isSourceTextureIdentifierEnabled": true,
@@ -341,7 +338,7 @@
         },
         {
           "modelName": "sequenceTexture",
-          "name": "dog_jumping_sequence",
+          "name": "dog_j_s",
           "identifier": "sequenceTexture:107149-95aa5017-0f77-4193-9507-dcaa11fa674f",
           "frameRate": 6,
           "isSourceTextureIdentifierEnabled": true,
@@ -357,7 +354,7 @@
         },
         {
           "modelName": "textureGroup",
-          "name": "Swan_right-[1-13]",
+          "name": "Swan_r[1-13]",
           "identifier": "textureGroup:229030-95aa5017-0f77-4193-9507-dcaa11fa674f",
           "sequenceFramesTextureIdentifiers": [
             "texture:228902-95aa5017-0f77-4193-9507-dcaa11fa674f",
@@ -418,7 +415,7 @@
         },
         {
           "modelName": "textureGroup",
-          "name": "Swan_right_idle-1[1-2]",
+          "name": "Swan_r_i-1[1-2]",
           "identifier": "textureGroup:232226-95aa5017-0f77-4193-9507-dcaa11fa674f",
           "sequenceFramesTextureIdentifiers": [
             "texture:232208-95aa5017-0f77-4193-9507-dcaa11fa674f",
@@ -435,7 +432,7 @@
         },
         {
           "modelName": "textureGroup",
-          "name": "Swan_Left-[1-2]",
+          "name": "Swan_l-[1-2]",
           "identifier": "textureGroup:248000-95aa5017-0f77-4193-9507-dcaa11fa674f",
           "sequenceFramesTextureIdentifiers": [
             "texture:247982-95aa5017-0f77-4193-9507-dcaa11fa674f",
@@ -452,7 +449,7 @@
         },
         {
           "modelName": "textureGroup",
-          "name": "Swan_Left-[1-8]",
+          "name": "Swan_l-[1-8]",
           "identifier": "textureGroup:249308-95aa5017-0f77-4193-9507-dcaa11fa674f",
           "sequenceFramesTextureIdentifiers": [
             "texture:249230-95aa5017-0f77-4193-9507-dcaa11fa674f",
@@ -490,9 +487,6 @@
               "sectionFileLocation": "textures/Swan_Left-8(1).texture"
             }
           ]
-        },
-        {
-          "sectionFileLocation": "textures/wall.texture"
         },
         {
           "modelName": "textureGroup",
@@ -726,40 +720,6 @@
           "identifier": "textureExportConfig:128254-6feaed2b-7612-4635-8715-a8d31e748bdb",
           "method": "fastest",
           "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:167852-6feaed2b-7612-4635-8715-a8d31e748bdb",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:167854-6feaed2b-7612-4635-8715-a8d31e748bdb",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:167856-6feaed2b-7612-4635-8715-a8d31e748bdb",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:317920-95aa5017-0f77-4193-9507-dcaa11fa674f",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:317922-95aa5017-0f77-4193-9507-dcaa11fa674f",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:317924-95aa5017-0f77-4193-9507-dcaa11fa674f",
-          "method": "fastest",
-          "targetFormat": 2
         }
       ]
     },
@@ -950,7 +910,7 @@
       "effectUsesOverlayOutput": false,
       "effectUsesPBRMaterial": false,
       "effectUsesParticipant": false,
-      "effectUsesParticleSystem": false,
+      "effectUsesParticleSystem": true,
       "effectUsesPeerOutput": false,
       "effectUsesPeerVideoStream": false,
       "effectUsesPermissions": false,
@@ -1202,10 +1162,10 @@
           "sectionFileLocation": "materials/rabbit_6.material"
         },
         {
-          "sectionFileLocation": "materials/rabbit_sequence.material"
+          "sectionFileLocation": "materials/rabbit_s.material"
         },
         {
-          "sectionFileLocation": "materials/dog_sequence.material"
+          "sectionFileLocation": "materials/dog_s.material"
         },
         {
           "sectionFileLocation": "materials/main_wave.material"
@@ -1226,22 +1186,19 @@
           "sectionFileLocation": "materials/trash4.material"
         },
         {
-          "sectionFileLocation": "materials/swan1_animation.material"
+          "sectionFileLocation": "materials/swan1_a.material"
         },
         {
-          "sectionFileLocation": "materials/swan1_idle_animation.material"
+          "sectionFileLocation": "materials/swan1_i_a.material"
         },
         {
-          "sectionFileLocation": "materials/swan2_animation.material"
+          "sectionFileLocation": "materials/swan2_a.material"
         },
         {
-          "sectionFileLocation": "materials/swan2_idle_animation.material"
+          "sectionFileLocation": "materials/swan2_i_a.material"
         },
         {
-          "sectionFileLocation": "materials/doggo_animation.material"
-        },
-        {
-          "sectionFileLocation": "materials/brick_overlay.material"
+          "sectionFileLocation": "materials/dog_a.material"
         }
       ]
     }

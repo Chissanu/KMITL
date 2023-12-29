@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Swan_Left-3",
+  "identifier": "texture:249250-95aa5017-0f77-4193-9507-dcaa11fa674f",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "a6482c8fbc6d323b13ca15cf46b73fb9",
+  "assetLocator": "textures/Swan_Left-3.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 385,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 359,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "a6482c8fbc6d323b13ca15cf46b73fb9",
+      "colorCount": 5593,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 5.210887205143122,
+      "pixelsHigh": 385,
+      "pixelsWide": 359
+    }
+  ]
+}

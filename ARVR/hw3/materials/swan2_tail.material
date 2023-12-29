@@ -2,7 +2,7 @@
   "modelName": "defaultMaterial",
   "name": "swan2_tail",
   "identifier": "defaultMaterial:57219-572a7aa6-a366-4f3f-923d-f17a1dd46984",
-  "alphaTestEnabled": false,
+  "alphaTestEnabled": true,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",

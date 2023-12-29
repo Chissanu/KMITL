@@ -2,7 +2,7 @@
   "modelName": "defaultMaterial",
   "name": "rabbit_5",
   "identifier": "defaultMaterial:16011-160a0b56-b9f2-4e94-9737-84fcdc9e97fa",
-  "alphaTestEnabled": false,
+  "alphaTestEnabled": true,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",

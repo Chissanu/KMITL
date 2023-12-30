@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-d8359d48-bef7-441a-a895-7178271bc30d",
   "id": "2d8359d48bef7441aa8957178271bc30d",
-  "revision": "145411a55ea5fc441d4d5d8487876cc460faae",
+  "revision": "149760d09eaf84b9d14e1981e86ebd0eab249e",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -51,15 +51,6 @@
         },
         {
           "sectionFileLocation": "textures/swan2_body.texture"
-        },
-        {
-          "sectionFileLocation": "textures/swan1-head.texture"
-        },
-        {
-          "sectionFileLocation": "textures/swan1-body.texture"
-        },
-        {
-          "sectionFileLocation": "textures/swan1-tail.texture"
         },
         {
           "sectionFileLocation": "textures/dog1.texture"
@@ -561,6 +552,9 @@
               "sectionFileLocation": "textures/Dog-14(2)-2.texture"
             }
           ]
+        },
+        {
+          "sectionFileLocation": "textures/swan.texture"
         }
       ]
     },
@@ -718,6 +712,23 @@
         {
           "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:128254-6feaed2b-7612-4635-8715-a8d31e748bdb",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:99917-d09eaf84-b9d1-4e19-81e8-6ebd0eab249e",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:99919-d09eaf84-b9d1-4e19-81e8-6ebd0eab249e",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:99921-d09eaf84-b9d1-4e19-81e8-6ebd0eab249e",
           "method": "fastest",
           "targetFormat": 2
         }
@@ -1102,15 +1113,6 @@
           "sectionFileLocation": "materials/swan2_tail.material"
         },
         {
-          "sectionFileLocation": "materials/swan1_head.material"
-        },
-        {
-          "sectionFileLocation": "materials/swan1_body.material"
-        },
-        {
-          "sectionFileLocation": "materials/swan1_tail.material"
-        },
-        {
           "sectionFileLocation": "materials/dog_1.material"
         },
         {
@@ -1199,6 +1201,9 @@
         },
         {
           "sectionFileLocation": "materials/dog_a.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan1_img.material"
         }
       ]
     }

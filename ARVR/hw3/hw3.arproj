@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-d8359d48-bef7-441a-a895-7178271bc30d",
   "id": "2d8359d48bef7441aa8957178271bc30d",
-  "revision": "149760d09eaf84b9d14e1981e86ebd0eab249e",
+  "revision": "3856302622f38875e4b1f9accedc276351b8a",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -594,7 +594,6 @@
     {
       "modelName": "exportConfig",
       "identifier": "exportConfig:50-d8359d48-bef7-441a-a895-7178271bc30d",
-      "globalCompressionDefaultOn": false,
       "children": [
         {
           "modelName": "textureExportConfig",
@@ -1204,6 +1203,63 @@
         },
         {
           "sectionFileLocation": "materials/swan1_img.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan1_part.material"
+        },
+        {
+          "sectionFileLocation": "materials/swan2_part.material"
+        },
+        {
+          "sectionFileLocation": "materials/rabbit_part.material"
+        },
+        {
+          "sectionFileLocation": "materials/dog_part.material"
+        },
+        {
+          "sectionFileLocation": "materials/material0-2.material"
+        }
+      ]
+    },
+    {
+      "modelName": "prefabs",
+      "identifier": "prefabs:4377-9882811d-e0e8-42d8-af7c-043e51363cf4",
+      "children": [
+        {
+          "modelName": "cube_shape_model",
+          "name": "cube_shape_model0",
+          "identifier": "cube_shape_model:8665-cee4dacd-690d-47e9-b0e2-c87e064e5226",
+          "assetLocator": "8664-cee4dacd-690d-47e9-b0e2-c87e064e5226.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "cube_shape_model",
+          "name": "cube_shape_model1",
+          "identifier": "cube_shape_model:15459-cee4dacd-690d-47e9-b0e2-c87e064e5226",
+          "assetLocator": "15458-cee4dacd-690d-47e9-b0e2-c87e064e5226.glb",
+          "height": 0.699999988079071,
+          "isExternalAsset": false,
+          "width": 0.699999988079071
+        },
+        {
+          "modelName": "cube_shape_model",
+          "name": "cube_shape_model2",
+          "identifier": "cube_shape_model:15462-cee4dacd-690d-47e9-b0e2-c87e064e5226",
+          "assetLocator": "15461-cee4dacd-690d-47e9-b0e2-c87e064e5226.glb",
+          "depth": 0.699999988079071,
+          "height": 0.699999988079071,
+          "isExternalAsset": false,
+          "width": 0.699999988079071
+        },
+        {
+          "modelName": "cube_shape_model",
+          "name": "cube_shape_model3",
+          "identifier": "cube_shape_model:15465-cee4dacd-690d-47e9-b0e2-c87e064e5226",
+          "assetLocator": "15464-cee4dacd-690d-47e9-b0e2-c87e064e5226.glb",
+          "depth": 0.699999988079071,
+          "height": 0.699999988079071,
+          "isExternalAsset": false,
+          "width": 0.699999988079071
         }
       ]
     }
